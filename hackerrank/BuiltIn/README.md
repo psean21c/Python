@@ -2,22 +2,27 @@
 ### Original Question
 https://www.hackerrank.com/challenges/py-if-else
 
-###
+### List
+
 A.py : If - else
 
+---
 B.py : function(Leap Day)
 
+---
 C.py : print()
 
-There are 4 ways to do the same job
 
----
+```
 Read an integer N.
 
 Without using any string methods, try to print the following:
 
 123..N
----
+
+There are 4 ways to do the same job
+
+```
 
 
 
