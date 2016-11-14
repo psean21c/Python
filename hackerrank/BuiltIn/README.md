@@ -1,16 +1,22 @@
 
-### Original Question
-https://www.hackerrank.com/challenges/py-if-else
-
-### List
+### Basic 
 
 # A.py : If - else
 
+https://www.hackerrank.com/challenges/py-if-else
 
-# B.py : function(Leap Day)
+Need to convert input value to integer
+```python
+N = int(input().strip())
+```
 
+# B.py : function
+
+Write function for leap day of February
 
 # C.py : print()
+
+Need to understand different options for print() built in function
 
 Read an integer N.
 
