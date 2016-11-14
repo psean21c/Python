@@ -13,13 +13,22 @@ http://www.diveinto.org/python3/porting-code-to-python-3-with-2to3.html
 http://www.codeskulptor.org/ (code snippet)
 
 ## course for python of Linear Algebra
-https://class.coursera.org/matrix-001/assignment/view?assignment_id=57
+https://www.coursera.org/learn/learn-to-program/
+
+https://www.udemy.com/complete-python-bootcamp/
+
+AWS
+https://linuxacademy.com/
+
+https://acloud.guru/
+
 
 ## Common errors in python
 http://inventwithpython.com/blog/2012/07/09/16-common-python-runtime-errors/
 
 
-##Basic Data Structure
+
+## Basic Data Structure
 list     [  ]
 
 tuple  ( )
