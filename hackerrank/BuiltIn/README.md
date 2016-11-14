@@ -4,24 +4,27 @@ https://www.hackerrank.com/challenges/py-if-else
 
 ### List
 
-A.py : If - else
+# A.py : If - else
 
 ---
-B.py : function(Leap Day)
+# B.py : function(Leap Day)
 
 ---
-C.py : print()
+# C.py : print()
 
-
-```
 Read an integer N.
 
 Without using any string methods, try to print the following:
 
 123..N
 
-There are 4 ways to do the same job
-
+Input
+```
+4
+```
+Output
+```
+1234
 ```
 
 
