@@ -7,6 +7,20 @@ A.py : If - else
 
 B.py : function(Leap Day)
 
+C.py : print()
+
+There are 4 ways to do the same job
+
+---
+Read an integer N.
+
+Without using any string methods, try to print the following:
+
+123..N
+---
+
+
+
 ### Built In function in Python3
 ![pybuiltin](https://cloud.githubusercontent.com/assets/5623445/20272862/438a0cf4-aa5d-11e6-852d-fc12a416c85b.PNG)
 
