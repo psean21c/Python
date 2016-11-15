@@ -29,13 +29,13 @@ __Requirement__
 
 * Need to understand different options for print() built in function
 
-'''
+```
 Read an integer N.
 
 Without using any string methods, try to print the following:
 
 123..N
-'''
+```
 
 Input
 ```
