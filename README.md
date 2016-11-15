@@ -1,7 +1,10 @@
 ###Python 3 API
-https://docs.python.org/3/library/fileinput.html
 
-https://docs.python.org/3.2/
+* Tutorial
+https://docs.python.org/3/tutorial/index.html
+
+* API Library
+https://docs.python.org/3/library/index.html
 
 
 ## How to convert python 2 to 3 in windows
