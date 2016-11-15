@@ -118,6 +118,7 @@ Below are the same ways which will save the input to the list
 N=int(input())
 listA = [int(x) for x in input().strip().split()]
 
+# Save the array to map first > convert them to list
 N=int(input())
 listA = list(map(int, input().split()))[:N]
 ```
