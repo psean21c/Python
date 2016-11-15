@@ -147,6 +147,12 @@ print (max_next)
 
 https://www.hackerrank.com/challenges/nested-list
 
+__Requirement__
+
+* Need to print the list of names who has the second lowest of grades. The key is there are more than two students who has the lowest and 2nd lowest grades.
+
+* 성적이 두번째로 가장 낮은 학생들의 이름을 알파벳 순서대로 출력하는 문제. 문제의 핵심은 가장 성적이 안 좋은 학생과 두번째로 가장 낮은 학생들의 수가 1명 이상이 될 수 있다는 것. 
+
 Input (sample-1)
 ```
 5
