@@ -143,7 +143,48 @@ max_next = max(listA)
 print (max_next)
 ```
 
+### G.py : List Comprehension
 
+https://www.hackerrank.com/challenges/nested-list
+
+Input (sample-1)
+```
+5
+Harry
+37.21
+Berry
+37.21
+Tina
+37.2
+Akriti
+41
+Harsh
+39
+```
+Output
+```
+Berry
+Harry
+```
+Input (sample-2)
+```
+5
+Harsh
+20
+Beria
+20
+Varun
+19
+Kakunami
+19
+Vikas
+21
+```
+Output
+```
+Beria
+Harsh
+```
 
 # Built In function in Python3
 ![pybuiltin](https://cloud.githubusercontent.com/assets/5623445/20272862/438a0cf4-aa5d-11e6-852d-fc12a416c85b.PNG)
