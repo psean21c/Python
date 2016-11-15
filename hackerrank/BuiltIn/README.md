@@ -59,6 +59,35 @@ Output
 [9, 5, 1]
 ```
 
+# E.py : List Comprehension
+
+https://www.hackerrank.com/challenges/list-comprehensions
+
+Input
+```
+1
+1
+1
+2
+```
+Output
+```
+[[0, 0, 0], [0, 0, 1], [0, 1, 0], [1, 0, 0], [1, 1, 1]] 
+```
+
+Below is a Python comprehension which will produce the output with one shot
+
+```python
+# 1)
+x, y, z, n = int(input()), int(input()), int(input()), int(input())
+print ([[a,b,c] for a in range(x+1) for b in range(y+1) for c in range(z+1) if a + b + c != n ])
+```
+This is the same comprehension with different 
+```python
+# 2)
+x, y, z, n = (int(input()) for _ in range(4))
+print ([[a,b,c] for a in range(x+1) for b in range(y+1) for c in range(z+1) if a + b + c != n ])
+```
 
 
 ### Built In function in Python3
