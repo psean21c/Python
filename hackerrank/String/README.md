@@ -8,7 +8,7 @@ https://www.hackerrank.com/challenges/swap-case
 
 __Requirement__
 
-* Need to convert input value to integer
+* Need to convert string from Upper to Lower / from Lower to Upper
 
 ```python
 a = input()
