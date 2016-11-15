@@ -18,11 +18,13 @@ Write function for leap day of February
 
 Need to understand different options for print() built in function
 
-Read an integer N.
+__Requirement__
 
-Without using any string methods, try to print the following:
+* Read an integer N.
 
-123..N
+* Without using any string methods, try to print the following:
+
+* 123..N
 
 Input
 ```
@@ -145,6 +147,10 @@ print (max_next)
 
 # Built In function in Python3
 ![pybuiltin](https://cloud.githubusercontent.com/assets/5623445/20272862/438a0cf4-aa5d-11e6-852d-fc12a416c85b.PNG)
+
+There are 68 built in functions in Python 3 but it is challenging to master each function 
+
+1) isinstance("this is a string", str) will return True
 
 https://docs.python.org/3/tutorial/index.html
 
