@@ -5,26 +5,37 @@
 
 https://www.hackerrank.com/challenges/py-if-else
 
-Need to convert input value to integer
+__Requirement__
+
+* Need to convert input value to integer
+
 ```python
 N = int(input().strip())
 ```
 
 ### B.py : function
 
-Write function for leap day of February
-
-### C.py : print()
-
-Need to understand different options for print() built in function
+https://www.hackerrank.com/challenges/write-a-function
 
 __Requirement__
 
-* Read an integer N.
+* Write a basic function for leap day of February
 
-* Without using any string methods, try to print the following:
+### C.py : print()
 
-* 123..N
+https://www.hackerrank.com/challenges/python-print
+
+__Requirement__
+
+* Need to understand different options for print() built in function
+
+'''
+Read an integer N.
+
+Without using any string methods, try to print the following:
+
+123..N
+'''
 
 Input
 ```
@@ -221,7 +232,9 @@ Output
 
 There are 68 built in functions in Python 3 but it is challenging to master each function 
 
-1) isinstance("this is a string", str) will return True
+* isinstance
+
+isinstance("this is a string", str) will return True
 
 https://docs.python.org/3/tutorial/index.html
 
