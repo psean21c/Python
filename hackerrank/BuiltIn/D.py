@@ -13,8 +13,12 @@ print
 pop
 reverse
 print
+----------------
+[6, 5, 10]
+[1, 5, 9, 10]
+[9, 5, 1]
 '''
-
+# 1)
 N = int(input())
 #print(N)
 lst = []
@@ -43,3 +47,19 @@ for i in range(N):
         print(lst)
 
 
+        import sys
+
+# 2)
+if __name__ == '__main__':
+    N = int(sys.stdin.readline())
+    A = []
+    
+    for _ in range(N):
+        X = sys.stdin.readline().strip().split()
+        
+        if X[0] == 'print':
+            print(A)
+        else:
+            f, args = X[0], list(map(int, X[1:]))
+            getattr(A, f)(*args)
+            
