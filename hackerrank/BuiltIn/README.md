@@ -192,6 +192,11 @@ Beria
 Harsh
 ```
 
+__GSolutionbyDrJang.py__
+* Different solution wrtten by __Dr. DongWook Jang__
+
+* Originally created in Python 2 and converted to Python 3 by __Simon Park__
+
 ### H.py : Finding the percentage
 
 https://www.hackerrank.com/challenges/finding-the-percentage
