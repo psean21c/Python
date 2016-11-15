@@ -82,7 +82,7 @@ Below is a Python comprehension which will produce the output with one shot
 x, y, z, n = int(input()), int(input()), int(input()), int(input())
 print ([[a,b,c] for a in range(x+1) for b in range(y+1) for c in range(z+1) if a + b + c != n ])
 ```
-This is the same comprehension with different 
+This is the same comprehension with different input to avoid having repetitive input calls 
 ```python
 # 2)
 x, y, z, n = (int(input()) for _ in range(4))
