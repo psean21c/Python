@@ -192,6 +192,25 @@ Beria
 Harsh
 ```
 
+### H.py : Finding the percentage
+
+https://www.hackerrank.com/challenges/finding-the-percentage
+
+* Need to utilize list in more dynamic ways
+
+Input
+```
+3
+Krishna 67 68 69
+Arjun 70 98 63
+Malika 52 56 60
+Malika
+```
+Output
+```
+56.00
+```
+
 # Built In function in Python3
 ![pybuiltin](https://cloud.githubusercontent.com/assets/5623445/20272862/438a0cf4-aa5d-11e6-852d-fc12a416c85b.PNG)
 
