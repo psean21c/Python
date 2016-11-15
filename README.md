@@ -34,6 +34,3 @@ list     [  ]
 tuple  ( )
 
 dictionary { } 
-
-##
-isinstance("this is a string", str) will return True
