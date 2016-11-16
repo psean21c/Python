@@ -1,7 +1,7 @@
 
 # String
 
-### A.py : 
+### A.py : Swap Case
 
 https://www.hackerrank.com/challenges/swap-case
 
@@ -24,8 +24,8 @@ Output
 ```
 hACKERrANK.COM PRESENTS "pYTHONIST 2".
 ```
-
-### B.py : name of quiz
+---
+### B.py : Mutations
 
 https://www.hackerrank.com/challenges/python-mutations
 
