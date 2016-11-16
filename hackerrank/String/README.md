@@ -27,15 +27,32 @@ hACKERrANK.COM PRESENTS "pYTHONIST 2".
 
 ### B.py : name of quiz
 
-link...
+https://www.hackerrank.com/challenges/python-mutations
+
+We know lists are mutable (they can be changed), and tuples are immutable (they cannot be changed).
+Also string is immutable, but it is not easy to manipulate it whenever it is necessary.
 
 __Requirement__
 
-* Write 
+```python
+# 1)
+string = "abracadabra"
+l = list(string)
+l[5] = 'k'
+string = ''.join(l)
+print string
+
+# 2)
+string = "abracadabra"
+string = string[:5] + "k" + string[6:]
+print string
+```
 
 
-
-
+You will get the result below.
+```
+abrackdabra
+```
 
 ---
 ### X.py : name of quiz
