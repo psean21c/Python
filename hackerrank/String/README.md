@@ -103,7 +103,54 @@ False
 
 It is important to know basics - this case any() function to save your effort.
 
+---
+### E.py : StringFormatting
 
+https://www.hackerrank.com/challenges/python-string-formatting
+
+__Requirement__
+
+1) Decimal
+
+2) Octal
+
+3) Hexadecimal (capitalized)
+
+4) Binary
+
+If you provide 17 to input() it will produce the result as below
+
+```
+    1     1     1     1
+    2     2     2    10
+    3     3     3    11
+    4     4     4   100
+    5     5     5   101
+    6     6     6   110
+    7     7     7   111
+    8    10     8  1000
+    9    11     9  1001
+   10    12     A  1010
+   11    13     B  1011
+   12    14     C  1100
+   13    15     D  1101
+   14    16     E  1110
+   15    17     F  1111
+   16    20    10 10000
+   17    21    11 10001
+```
+
+```python
+
+N = int(input())
+pad = len(format(N,'b'))
+for i in range(N):
+    numa = str(i+1).rjust(pad)
+    octa = str(format(i+1, 'o')).rjust(pad)
+    hexa = str(format(i+1, 'x')).upper().rjust(pad)
+    bina = str(format(i+1, 'b')).rjust(pad)
+    print( numa + " " + octa + " " + hexa + " " + bina)
+```
 
 ---
 ### X.py : name of quiz
