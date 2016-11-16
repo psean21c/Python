@@ -208,6 +208,10 @@ __GSolutionbyDrJang.py__
 
 * Originally created in Python 2 and converted to Python 3 by __Simon Park__
 
+__GSolutionbyCalgary.py__
+* Different solution wrtten by __Eugene Kim__
+
+
 ### H.py : Finding the percentage
 
 https://www.hackerrank.com/challenges/finding-the-percentage
