@@ -53,7 +53,7 @@ You will get the result below.
 ```
 abrackdabra
 ```
-
+---
 ### C.py : Find a String
 
 https://www.hackerrank.com/challenges/find-a-string
@@ -72,7 +72,7 @@ for i in range(len(line)):
 print (score)
 
 ```
-
+---
 ### D.py : String Validators
 
 https://www.hackerrank.com/challenges/string-validators
