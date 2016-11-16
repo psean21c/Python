@@ -54,7 +54,7 @@ You will get the result below.
 abrackdabra
 ```
 
-### X.py : Find a String
+### C.py : Find a String
 
 https://www.hackerrank.com/challenges/find-a-string
 
