@@ -1,8 +1,10 @@
 
 #
 
+The site below is my reference which I frequently study .. it is wonderful and well organized.
 
 http://www.bogotobogo.com/python/
+
 Below is my practice note which I prepared Python technical skills
 
 ## 1) Write f() to yield list of power function
