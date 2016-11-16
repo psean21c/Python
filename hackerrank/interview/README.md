@@ -1,7 +1,11 @@
 
 #
 
-##
+Below is my practice note which I prepared Python technical skills
+
+http://www.bogotobogo.com/python/
+
+## 
 
 ```python
 for x in f(6):
