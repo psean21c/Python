@@ -20,6 +20,9 @@ https://www.coursera.org/learn/learn-to-program/
 
 https://www.udemy.com/complete-python-bootcamp/
 
+Personal Blog for Python
+http://www.bogotobogo.com/python/
+
 AWS
 https://linuxacademy.com/
 
