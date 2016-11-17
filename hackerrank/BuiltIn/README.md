@@ -231,6 +231,12 @@ Output
 56.00
 ```
 
+How to use the format : 56.00
+
+```python
+print('{0:.2f}'.format(dic[name]))
+```
+
 # Built In function in Python3
 ![pybuiltin](https://cloud.githubusercontent.com/assets/5623445/20272862/438a0cf4-aa5d-11e6-852d-fc12a416c85b.PNG)
 
