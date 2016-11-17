@@ -234,7 +234,7 @@ Output
 How to use the format : 56.00
 
 ```python
-print('{0:.2f}'.format(dic[name]))
+print('{0:.2f}'.format(number))
 ```
 
 # Built In function in Python3
