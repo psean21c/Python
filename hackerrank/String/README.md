@@ -206,6 +206,7 @@ j-i-h-g-f-e-d-c-b-a-b-c-d-e-f-g-h-i-j
 
 
 ```python
+# Both solutions are others' which I will study later
 # Version 1
 
 import string
