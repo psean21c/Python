@@ -36,14 +36,17 @@ def f(n):
 ## 2) The difference between lists and tuples? 
 
 ```
-First list are mutable while tuples are not, and second tuples can be hashed e.g. 
-to be used as keys for dictionaries. 
+First list are mutable while tuples are not, 
+and second tuples can be hashed to be used as keys for dictionaries. 
+
 As an example of their usage, tuples are used when the order of the elements in the sequence matters 
 e.g. a geographic coordinates, "list" of points in a path or route, 
 or set of actions that should be executed in specific order. 
+
 Don't forget that you can use them a dictionary keys. For everything else use lists.
 ```
 
+---
 ## 3) A few differences between Python 2.x and 3.x
 
 ```
