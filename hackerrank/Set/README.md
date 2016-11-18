@@ -1,27 +1,32 @@
 # Set
 
-### A.py : Swap Case
+### A.py : Intro Set
 
-https://www.hackerrank.com/challenges/swap-case
+https://www.hackerrank.com/challenges/py-introduction-to-sets
 
 
 __Requirement__
 
-* Need to convert string from Upper to Lower / from Lower to Upper
+* Use create Set() and functions - len()
+
 
 ```python
-a = input()
-for x in a:
-    print(x.swapcase(), end='')
+N = 10
+S = set(list("161 182 161 154 176 170 167 171 170 174".split()))
+
+sum = 0
+for x in S:
+    sum += int(x)
+    
+average = sum / len(S)
+print(average)    
+
 ```
-Input
-```
-HackerRank.com presents "Pythonist 2".
-```
+
 
 Output
 ```
-hACKERrANK.COM PRESENTS "pYTHONIST 2".
+169.375
 ```
 
 
