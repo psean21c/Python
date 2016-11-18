@@ -74,8 +74,43 @@ for x in L:
     print(x)
  
 ```
+### C.py : Set.add()
+
+https://www.hackerrank.com/challenges/py-set-add
+
+__Requirement__
 
 
+
+input
+```
+7
+UK
+China
+USA
+France
+New Zealand
+UK
+France 
+```
+
+output
+```
+5
+```
+
+
+```python
+N = int(input())
+
+S = set()
+
+for x in range(N):
+    S.add(input().strip())
+
+
+print(len(S))
+```
 ---
 ### X.py : name of quiz
 
