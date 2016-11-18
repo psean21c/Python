@@ -112,6 +112,68 @@ for x in range(N):
 print(len(S))
 ```
 ---
+
+### D.py : pop() discard() remove()
+
+https://www.hackerrank.com/challenges/py-set-discard-remove-pop
+
+__Requirement__
+
+* Write 
+
+input
+```
+10
+pop
+remove 9
+discard 9
+discard 8
+remove 7
+pop 
+discard 6
+remove 5
+pop 
+discard 5
+```
+
+output
+```
+4
+```
+
+
+```python
+N = 9
+S = set(map(int,"1 2 3 4 5 6 7 8 9".split()))
+
+def moveSet(str,int):
+    if str=="pop":
+        S.pop()
+    elif str=="remove":
+        S.remove(int)
+    elif str=="discard":
+        S.discard(int)
+
+
+Q = 10
+
+for x in range(Q):
+    c = input().strip()
+    if c == "pop":
+        moveSet(c,0)
+    else:
+        i = c.split()
+        moveSet(i[0],int(i[1]))
+
+
+print(sum(S))
+
+```
+
+
+
+---
+
 ### X.py : name of quiz
 
 link...
