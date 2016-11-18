@@ -170,6 +170,62 @@ print(sum(S))
 
 ```
 
+### E.py : Set Mutations
+
+https://www.hackerrank.com/challenges/py-set-mutations
+
+__Requirement__
+
+* Write 
+
+input
+```
+16
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 24 52
+4
+intersection_update 10
+2 3 5 6 8 9 1 4 7 11
+update 2
+55 66
+symmetric_difference_update 5
+22 7 35 62 58
+difference_update 7
+11 22 35 55 58 62 66
+```
+
+output
+```
+38
+```
+
+```python
+N1 = int(input())
+S1 = set(map(int,list(input().split())))  
+#print(S1)
+
+Q = int(input())
+
+
+for x in range(Q):
+    c = input().split()
+    #print(str(c[0]) + ": " + str(c[1]))
+    S2 = set(map(int,list(input().split())))
+    
+    if str(c[0]) == "intersection_update":
+        S1.intersection_update(S2)
+    if str(c[0]) == "update":
+        S1.update(S2)
+    if str(c[0]) == "symmetric_difference_update":
+        S1.symmetric_difference_update(S2)
+    if str(c[0]) == "difference_update":
+        S1.difference_update(S2)
+
+
+print(sum(S1))
+```
+
+
+
 
 
 ---
