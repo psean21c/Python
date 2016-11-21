@@ -8,6 +8,9 @@
 {'a': 1, 'c': 3, 'b': 2}
 ```
 
+```
+d['c'] = 3
+```
 ### Question 2
 
 ```python
@@ -15,6 +18,10 @@
 >>> # CODE MISSING HERE
 >>> d
 {'a': 1, 'b': 3}
+```
+
+```
+d['b'] = 3
 ```
 ### Question 3
 
@@ -26,6 +33,16 @@
 ```
 
 ```
+# 1) 
+d['a'] = [1,2,3]
+
+# 2)
+d['a'].insert(1,2)
+
+# 3)
+d['a'].append(2)
+d['a'].sort()
+
 ```
 
 ### Question 4
@@ -35,6 +52,11 @@ d = {'a': 1, 'c': 3, 'b': 2}
 ```
 
 ```
+d = {'a': 1, 'c': 3, 'b': 2}
+print('a' in d) # True
+print("a" in d) # True
+print(2 in d) # False
+
 ```
 ### Question 5
 
@@ -43,6 +65,11 @@ d = {'a': [1, 3], 'b': [5, 7, 9], 'c': [11]}
 ```
 
 ```
+v = len(d) - 3                      # 0
+w = len(d['a' + 'c'])               # KeyError
+x = len(d)                          # 3
+y = len(d['a']) + len(d['c'])       # 3
+
 ```
 ### Question 6
 
