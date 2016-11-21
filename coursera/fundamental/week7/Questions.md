@@ -78,7 +78,12 @@ tup = (1, 2, 3)
 ```
 
 ```
+print(tup[0:2] == (10, 30)) # False
+tup.reverse() # AttributeError: 'tuple' object has no attribute 'reverse'
+subtup = tup[0:2] # (1, 2)
+tup[-2] = 4 # TypeError: 'tuple' object does not support item assignment
 ```
+
 ### Question 7
 
 ```python
