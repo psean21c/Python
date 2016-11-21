@@ -8,7 +8,7 @@
 {'a': 1, 'c': 3, 'b': 2}
 ```
 
-```
+```python
 d['c'] = 3
 ```
 ### Question 2
@@ -20,7 +20,7 @@ d['c'] = 3
 {'a': 1, 'b': 3}
 ```
 
-```
+```python
 d['b'] = 3
 ```
 ### Question 3
@@ -32,7 +32,7 @@ d['b'] = 3
 {'a': [1, 2, 3], 'b': [5, 7]}
 ```
 
-```
+```python
 # 1) 
 d['a'] = [1,2,3]
 
@@ -53,6 +53,7 @@ d = {'a': 1, 'c': 3, 'b': 2}
 
 ```
 d = {'a': 1, 'c': 3, 'b': 2}
+
 print('a' in d) # True
 print("a" in d) # True
 print(2 in d) # False
@@ -214,9 +215,6 @@ def contains(v, d):
     found = False # Whether we have found v in a list in d.
 
     # CODE MISSING HERE
- 
-    return found
-
     # 1) 
     for k in d:
         if v == k:
@@ -235,6 +233,10 @@ def contains(v, d):
         for i in range(len(d[k])):
             if d[k][i] == v:
                 found = True
+    # CODE ENDING HERE
+ 
+    return found
+
             
 ```
 
@@ -242,9 +244,11 @@ def contains(v, d):
 # 1)
 False
 True
+
 # 2)
 False
 False
+
 # 3) + 4)
 True
 False
