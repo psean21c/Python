@@ -79,25 +79,88 @@ tup = (1, 2, 3)
 
 ```
 print(tup[0:2] == (10, 30)) # False
-tup.reverse() # AttributeError: 'tuple' object has no attribute 'reverse'
-subtup = tup[0:2] # (1, 2)
-tup[-2] = 4 # TypeError: 'tuple' object does not support item assignment
+tup.reverse()               # AttributeError: 'tuple' object has no attribute 'reverse'
+subtup = tup[0:2]           # (1, 2)
+tup[-2] = 4                 # TypeError: 'tuple' object does not support item assignment
 ```
 
 ### Question 7
 
+Which one can be used as dictionary keys?
+
 ```python
+['a', 'b']
+('single',)
+(1, 'fred', 2.0)
+{1: 2, 3: 4}
 ```
 
 ```
+d1= {['a', 'b']:1} # unhashable type: 'list'
+d2={('single',):1} # {('single',): 1}
+d3={(1, 'fred', 2.0):1} # {(1, 'fred', 2.0): 1}
+d4={{1: 2, 3: 4}:1} # TypeError: unhashable type: 'dict'
 ```
+
 ### Question 8
 
 ```python
 d = {1: ['a', 'b', 'c'], 2: ['d', 'e'], 3: []}
+# 1)
+total = 0
+for k in d:
+    total = total + len(d[k])
+
+# 2)
+total = 0
+for k in d:
+    total = total + k
+
+# 3)        
+L = []
+for k in d:
+    L.append(k)
+
+total = len(L)
+
+# 4)
+L = []
+for k in d:
+    L.extend(d[k])
+
+total = len(L)        
+
 ```
 
 ```
+# 1)
+total = 0
+for k in d:
+    total = total + len(d[k])
+
+print(total)         # 5
+
+# 2)
+total = 0
+for k in d:
+    total = total + k
+print(total)         # 6
+        
+# 3)        
+L = []
+for k in d:
+    L.append(k)
+
+total = len(L)
+print(total)         # 3
+
+# 4)
+L = []
+for k in d:
+    L.extend(d[k])
+
+total = len(L)        
+print(total)         # 5
 ```
 ### Question 9
 
