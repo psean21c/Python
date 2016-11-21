@@ -104,6 +104,10 @@ d4={{1: 2, 3: 4}:1} # TypeError: unhashable type: 'dict'
 
 ### Question 8
 
+Need to set variable total to the number of items in all the lists that occur as values in d.
+
+In this question the answer is 5
+
 ```python
 d = {1: ['a', 'b', 'c'], 2: ['d', 'e'], 3: []}
 # 1)
@@ -134,32 +138,15 @@ total = len(L)
 
 ```
 # 1)
-total = 0
-for k in d:
-    total = total + len(d[k])
-
 print(total)         # 5
 
 # 2)
-total = 0
-for k in d:
-    total = total + k
 print(total)         # 6
         
 # 3)        
-L = []
-for k in d:
-    L.append(k)
-
-total = len(L)
 print(total)         # 3
 
 # 4)
-L = []
-for k in d:
-    L.extend(d[k])
-
-total = len(L)        
 print(total)         # 5
 ```
 ### Question 9
