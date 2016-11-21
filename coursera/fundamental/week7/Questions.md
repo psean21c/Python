@@ -156,6 +156,7 @@ print(total)         # 5
 ```
 
 ```
+{1: 30}
 ```
 ### Question 10
 
@@ -165,9 +166,12 @@ d = {}
 for item in L:
    d[item[0]] = item[1]
 ```
+Populates dictionary d where each key is the first item of each inner list of L and each value is the second item of that inner list.
 
 ```
+{'banana': 3, 'pear': 2, 'apple': 3}
 ```
+
 ### Question 11
 
 ```python
@@ -212,6 +216,30 @@ def contains(v, d):
     # CODE MISSING HERE
  
     return found
+
+# 1)    
+for k in d:
+    if v == k:
+        found = True
+            
+            
+# 2)    
+for k in d:
+    for i in range(len(d[k])):
+        found = (d[k][i] == v)
+            
+            
+# 3)    
+for k in d:
+    if v in d[k]:
+        found = True
+ 
+# 4)    
+for k in d:
+    for i in range(len(d[k])):
+        if d[k][i] == v:
+            found = True
+            
 ```
 
 ```
