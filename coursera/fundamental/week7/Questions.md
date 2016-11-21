@@ -239,6 +239,18 @@ def contains(v, d):
 ```
 
 ```
+# 1)
+False
+True
+# 2)
+False
+False
+# 3) + 4)
+True
+False
+
+
+
 ```
 
 
