@@ -217,28 +217,24 @@ def contains(v, d):
  
     return found
 
-# 1)    
-for k in d:
-    if v == k:
-        found = True
-            
-            
-# 2)    
-for k in d:
-    for i in range(len(d[k])):
-        found = (d[k][i] == v)
-            
-            
-# 3)    
-for k in d:
-    if v in d[k]:
-        found = True
- 
-# 4)    
-for k in d:
-    for i in range(len(d[k])):
-        if d[k][i] == v:
+    # 1) 
+    for k in d:
+        if v == k:
             found = True
+
+    # 2) 
+    for k in d:
+        for i in range(len(d[k])):
+            found = (d[k][i] == v)
+    # 3) 
+    for k in d:
+        if v in d[k]:
+            found = True
+    # 4) 
+    for k in d:
+        for i in range(len(d[k])):
+            if d[k][i] == v:
+                found = True
             
 ```
 
