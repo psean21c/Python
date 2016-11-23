@@ -6,6 +6,33 @@
 Original
 https://www.toptal.com/python/interview-questions
 
+### List: Comprehension of List
+
+__Requirement__
+
+* Need to understand list of lists
+```python
+def multiply(n):
+  return [lambda x : i * x for i in range(n)]
+
+def printL(lst):
+  for l in lst:
+    print(str(l) + " ", end="")
+
+a = [i(2) for i in multiply(5)]
+printL(a)
+```
+
+What's result? 
+```
+[8, 8, 8, 8, 8]
+```
+The output of the above code will be `[8, 8, 8, 8, 8]` not `[0, 2, 4, 6, 8]`
+
+The reason for this is that Python’s closures are late binding. This means that the values of variables used in closures are looked up at the time the inner function is called. So as a result, when any of the functions returned by multiply() are called, the value of i is looked up in the surrounding scope at that time. By then, regardless of which of the returned functions is called, the for loop has completed and i is left with its final value of 4. Therefore, every returned function multiplies the value it is passed by 4, so since a value of 2 is passed in the above code, they all return a value of 6 (i.e., 4 x 2).
+
+---
+
 ### List: index of List
 
 __Requirement__
@@ -173,4 +200,6 @@ rather, it creates a a list of 5 references to the same list.
 [link to Python 3 API](https://docs.python.org/3.6/library/stdtypes.html#sequence-types-list-tuple-range)
 
 [link to GitHub MarkDown](https://guides.github.com/features/mastering-markdown/)
+
+[link to HitchHiker's Python](http://docs.python-guide.org/en/latest/writing/gotchas/)
 
