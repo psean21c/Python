@@ -105,18 +105,24 @@ Output
 [[10, 20], [10, 20], [10, 20], [10, 20], [10, 20], 30]
 ```
 
-**Initially I was expecting the 2nd print as below**
-
-```
-[10, [], [], [], [], []]
-```
+**Initially I was expecting the 2nd print as ** `[10, [], [], [], [], []]`
 
 
-The first line of output is presumably intuitive and easy to understand; i.e.,`list = [ [ ] ] * 5` simply creates a list of 5 lists.
+
+What happens is that the first line of output is presumably intuitive and easy to understand; `list = [ [ ] ] * 5` simply creates a list of 5 lists.
 
 However, the key thing to understand here is that the statement `list = [ [ ] ] * 5` does NOT create a list containing 5 distinct lists; 
 rather, it creates a a list of 5 references to the same list. 
 
 
 ---
+
+
+---
+
+### Reference
+
+[link to Python 3 API](https://docs.python.org/3.6/library/stdtypes.html#sequence-types-list-tuple-range)
+
+[link to GitHub MarkDown](https://guides.github.com/features/mastering-markdown/)
 
