@@ -105,7 +105,7 @@ Output
 [[10, 20], [10, 20], [10, 20], [10, 20], [10, 20], 30]
 ```
 
-**Initially I was expecting the 2nd print as ** `[10, [], [], [], [], []]`
+**Initially I was expecting the 2nd print as ** `[10, [], [], [], [], []]`  * or * `[[10], [], [], [], []]`
 
 
 
