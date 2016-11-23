@@ -6,6 +6,28 @@
 Original
 https://www.toptal.com/python/interview-questions
 
+### List: index of List
+
+__Requirement__
+
+* Need to understand list of lists
+```python
+lst = ['a', 'b', 'c', 'd', 'e']
+
+print(lst[10:])
+```
+
+What's result? `IndexError` or `[]`
+
+
+According to 
+[API for List](https://docs.python.org/3.6/library/stdtypes.html#sequence-types-list-tuple-range)
+
+`s[i:j]` : slice of s from i to j
+
+
+---
+
 
 ### List: extend List
 
@@ -137,8 +159,6 @@ rather, it creates a a list of 5 references to the same list.
 
 ---
 
-
----
 
 ### Reference
 
