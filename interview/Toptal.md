@@ -105,15 +105,16 @@ Output
 [[10, 20], [10, 20], [10, 20], [10, 20], [10, 20], 30]
 ```
 
-**Initially I was expecting the 2nd print as below
+**Initially I was expecting the 2nd print as below**
 
+```
 [10, [], [], [], [], []]
+```
 
-**
 
-The first line of output is presumably intuitive and easy to understand; i.e., list = [ [ ] ] * 5 simply creates a list of 5 lists.
+The first line of output is presumably intuitive and easy to understand; i.e.,`list = [ [ ] ] * 5` simply creates a list of 5 lists.
 
-However, the key thing to understand here is that the statement list = [ [ ] ] * 5 does NOT create a list containing 5 distinct lists; 
+However, the key thing to understand here is that the statement `list = [ [ ] ] * 5` does NOT create a list containing 5 distinct lists; 
 rather, it creates a a list of 5 references to the same list. 
 
 
