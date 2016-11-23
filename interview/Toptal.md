@@ -6,11 +6,76 @@
 Original
 https://www.toptal.com/python/interview-questions
 
+### Class: Inheritance
+
+__Requirement__
+
+* Need to understand class variables
+
+```python
+class Parent(object):
+    x = 1
+
+class Child1(Parent):
+    pass
+
+class Child2(Parent):
+    pass
+
+print (Parent.x, Child1.x, Child2.x)
+Child1.x = 2
+print (Parent.x, Child1.x, Child2.x)
+Parent.x = 3
+print (Parent.x, Child1.x, Child2.x)
+
+```
+What's result? 
+```
+1 1 1
+1 2 1
+3 2 3
+```
+
+---
+### Class: Inheritance
+
+__Requirement__
+
+* Need to understand class variables
+
+```python
+class Parent(object):
+    x = 1
+
+class Child1(Parent):
+    pass
+
+class Child2(Parent):
+    pass
+
+print (Parent.x, Child1.x, Child2.x)
+Child1.x = 2
+print (Parent.x, Child1.x, Child2.x)
+Parent.x = 3
+print (Parent.x, Child1.x, Child2.x)
+
+```
+What's result? 
+```
+1 1 1
+1 2 1
+3 2 3
+```
+
+The key to the answer is that, in Python, class variables are internally handled as dictionaries. If a variable name is not found in the dictionary of the current class, the class hierarchy (i.e., its parent classes) are searched until the referenced variable name is found (if the referenced variable name is not found in the class itself or anywhere in its hierarchy, an AttributeError occurs).
+
+---
+
 ### List: Comprehension of List
 
 __Requirement__
 
-* Need to understand list of lists
+* Need to understand generator / clouser (late binding)
 ```python
 def multiply(n):
   return [lambda x : i * x for i in range(n)]
@@ -30,6 +95,19 @@ What's result?
 The output of the above code will be `[8, 8, 8, 8, 8]` not `[0, 2, 4, 6, 8]`
 
 The reason for this is that Python’s closures are late binding. This means that the values of variables used in closures are looked up at the time the inner function is called. So as a result, when any of the functions returned by multiply() are called, the value of i is looked up in the surrounding scope at that time. By then, regardless of which of the returned functions is called, the for loop has completed and i is left with its final value of 4. Therefore, every returned function multiplies the value it is passed by 4, so since a value of 2 is passed in the above code, they all return a value of 6 (i.e., 4 x 2).
+
+Solution-1: generator
+```python
+def multiply(n):
+  for i in range(n):
+    yield lambda x: i * x
+```
+
+Solution-2:  create a closure that binds immediately to its arguments by using a default argument
+```python
+def multiply(n):
+  return [lambda x, i=i : i * x for i in range(n)]
+```
 
 ---
 
