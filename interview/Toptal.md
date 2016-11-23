@@ -84,28 +84,48 @@ __Requirement__
 * Need to understand list of lists
 
 ```python
-list = [ [ ] ] * 5
-print(list)
+lst1 = [[] for i in range(3)]
+print(lst1)
 
-list[0].append(10)
-print(list)
+lst1[0].append(3)
+print(lst1)
 
-list[1].append(20)
-print(list)
+lst1[1].append(5)
+print(lst1)
 
-list.append(30)
-print(list)
+lst1[2].append(7)
+print(lst1)
+
+print()
+
+lst2 = [ [ ] ] * 3
+print(lst2)
+
+lst2[0].append(3)
+print(lst2)
+
+lst2[1].append(5)
+print(lst2)
+
+lst2[1].append(7)
+print(lst2)
 ```
 
 Output
 ```
-[[], [], [], [], []]
-[[10], [10], [10], [10], [10]]
-[[10, 20], [10, 20], [10, 20], [10, 20], [10, 20]]
-[[10, 20], [10, 20], [10, 20], [10, 20], [10, 20], 30]
+[[], [], []]
+[[3], [], []]
+[[3], [5], []]
+[[3], [5], [7]]
+
+[[], [], []]
+[[3], [3], [3]]
+[[3, 5], [3, 5], [3, 5]]
+[[3, 5, 7], [3, 5, 7], [3, 5, 7]]
+
 ```
 
-**Initially I was expecting the 2nd print as ** `[10, [], [], [], [], []]`  * or * `[[10], [], [], [], []]`
+**Initially I was expecting the 2nd print as ** `[3, [], [], []]`  * or * `[[3], [], []]`
 
 
 
