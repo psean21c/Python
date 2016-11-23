@@ -25,6 +25,8 @@ According to
 
 `s[i:j]` : slice of s from i to j
 
+![list](https://cloud.githubusercontent.com/assets/5623445/20571694/88b0e990-b176-11e6-87c2-ffd4a38ba378.PNG)
+
 
 ---
 
