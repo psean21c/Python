@@ -230,6 +230,31 @@ print("\n".join(map(lambda i: "-".join(map(lambda j: chr(97 + abs(i) + abs(j)), 
 ```
 
 ---
+
+### G.py : Capitalize
+
+https://www.hackerrank.com/challenges/capitalize
+
+```python
+def printList(s):
+  for i in s:
+    print(i.capitalize() + " ", end="")
+
+s = input().split()
+printList(s)
+```
+It will capiltalize all words but also removed all extra spaces as below
+```
+1 2 2 3 4 5 6 7 8  9
+1 2 2 3 4 5 6 7 8 9 
+```
+
+__Requirement__
+
+* Write 
+
+---
+
 ### X.py : name of quiz
 
 link...
