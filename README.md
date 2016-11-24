@@ -16,7 +16,12 @@ http://www.diveinto.org/python3/porting-code-to-python-3-with-2to3.html
 
 
 ## Python Site 
-http://www.codeskulptor.org/ (code snippet)
+
+[code snippet](http://www.codeskulptor.org/)
+
+[Visualize Python](http://pythontutor.com/visualize.html)
+
+
 
 ## course for python of Linear Algebra
 https://www.coursera.org/learn/learn-to-program/
