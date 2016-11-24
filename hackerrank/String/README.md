@@ -245,13 +245,12 @@ printList(s)
 ```
 It will capiltalize all words but also removed all extra spaces as below
 ```
+hello world
+Hello World
+
 1 2 2 3 4 5 6 7 8  9
 1 2 2 3 4 5 6 7 8 9 
 ```
-
-__Requirement__
-
-* Write 
 
 ---
 
