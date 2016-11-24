@@ -49,6 +49,8 @@ def common_chars(s1, s2):
             res = ch + res
 ```
 
+3 / 4
+
 ---
 
 ### index
@@ -69,9 +71,33 @@ and you can only call method str.find and use the arithmetic operators (+, -, et
 
 Hint: call str.find twice in your expression.
 
-```pyhton
+```python
 
 nextPoint = s1.find(s2,s1.find(s2)+1)
 print(nextPoint)
+```
 
-'''
+---
+
+###
+
+Select the expression(s) that produce `True` when variable (code)s refers to a str that is entirely alphabetic or entirely numeric, and that produce `False` if the str is not entirely alphabetic and not entirely numeric.
+
+
+```python
+
+# 1)
+s.isalpha() or s.isnumeric()
+
+# 2)
+s.isalpha() and s.isnumeric()
+
+# 3)
+s.islower() or s.isupper()
+
+# 4)
+s.lower() or s.upper() or s.isdigit()
+
+```
+
+1
