@@ -4,7 +4,7 @@
 
 For Loops Over Indices, Parallel Lists and Strings, and Files
 
-### for loop
+### Indices of List
 
 ```python
 def merge(L):
@@ -17,7 +17,9 @@ l = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(merge(l))
 ```
 
-### 
+Very useful to group by number
+
+###  Indices of List
 
 ```python
 def mystery(s):
@@ -32,18 +34,20 @@ def mystery(s):
 
 print(mystery('civil'))
 ```
+
 Trace the function call mystery('civil') using the Python Visualizer. How many times is the line marked above reached?
 
-#Which is the best docstring description for function mystery?
+Answer: 2
 
-#Return True if and only if s is equal to the reverse of s.
+Which is the best docstring description for function mystery?
 
-#Return True if and only if s[:len(s) // 2] is the same as s[len(s) // 2:].
-
-#Return True if and only if the number of duplicate characters in s is equal to len(s) // 2.
-
-#Return True if and only if there are exactly len(s) // 2 characters in s that are the same character.
-
+```
+1) Return True if and only if s is equal to the reverse of s.
+2) Return True if and only if s[:len(s) // 2] is the same as s[len(s) // 2:].
+3) Return True if and only if the number of duplicate characters in s is equal to len(s) // 2.
+4) Return True if and only if there are exactly len(s) // 2 characters in s that are the same character.
+```
+Answer: 1)
 
 ---
 
