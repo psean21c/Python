@@ -48,8 +48,7 @@ def common_chars(s1, s2):
         if ch in s2:
             res = ch + res
 ```
-
-3 / 4
+Answer: 3) and  4)
 
 ---
 
@@ -71,6 +70,7 @@ and you can only call method str.find and use the arithmetic operators (+, -, et
 
 Hint: call str.find twice in your expression.
 
+Answer:
 ```python
 
 nextPoint = s1.find(s2,s1.find(s2)+1)
@@ -99,5 +99,4 @@ s.islower() or s.isupper()
 s.lower() or s.upper() or s.isdigit()
 
 ```
-
-1
+Answer: 1)
