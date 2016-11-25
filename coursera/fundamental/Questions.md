@@ -84,6 +84,25 @@ Hint: the correct answer works from the end to the beginning of L.
         L[len(L) - i] = L[len(L) - i - 1]
 	
 ```
+
+---
+### Indexing 
+
+Using numbers and indexing with non-negative indices, write an expression that evaluates to 7. Do not use addition, subtraction, or parentheses ( ) (brackets ([] are required).
+```python
+numbers = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+print(numbers[2][0])
+```
+
+Using treats and indexing with only negative indices, write an expression that evaluates to 'pie'. Do not use addition, subtraction, or parentheses ( ) (brackets[ ] are required).
+
+```python
+treats = [['apple', 'pie'], ['vanilla', 'ice-cream'], ['chocolate', 'cake']]
+
+print(treats[-3][-1])
+
+```
 ---
 
 # String
