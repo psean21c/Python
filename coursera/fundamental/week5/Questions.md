@@ -20,6 +20,7 @@ mystery('123abc')
 ```
 
 Answer: 1)
+
 ---
 
 ```python
