@@ -19,7 +19,7 @@ print(merge(l))
 
 Very useful to group by number
 
-###  Indices of List
+###  Mystery
 
 ```python
 def mystery(s):
@@ -49,6 +49,41 @@ Which is the best docstring description for function mystery?
 ```
 Answer: 1)
 
+---
+### Shift Right
+
+```python
+def shift_right(L):
+    ''' (list) -> NoneType
+
+    Shift each item in L one position to the rightand shift the    last item to the first position.
+
+    Precondition: len(L) >= 1
+    '''
+
+    last_item = L[-1]
+
+    # MISSING CODE GOES HERE
+
+    L[0] = last_item
+	
+
+l = [1,2,3,5,6]	 
+print(shift_right(l))
+```
+Hint: the correct answer works from the end to the beginning of L.
+
+```python
+    # 1) Not working properly because of overwrting
+    for i in range(0,len(L)-1):
+       print(str(L[i]) + "," + str(L[i+1]))	
+        L[i+1] = L[i]		
+    
+    # 2) Good..
+    for i in range(1, len(L)):
+        L[len(L) - i] = L[len(L) - i - 1]
+	
+```
 ---
 
 # String
