@@ -1,4 +1,52 @@
 
+
+# Chapter 6
+
+For Loops Over Indices, Parallel Lists and Strings, and Files
+
+### for loop
+
+```python
+def merge(L):
+    merged = []
+    for i in range(0, len(L), 3):
+        merged.append(L[i] + L[i + 1] + L[i + 2])
+    return merged
+
+l = [1, 2, 3, 4, 5, 6, 7, 8, 9]	
+print(merge(l))
+```
+
+### 
+
+```python
+def mystery(s):
+    """ (str) -> bool
+    """
+    matches = 0
+    for i in range(len(s) // 2):
+        if s[i] == s[len(s) - 1 - i]: # <--- How many times is this line reached?
+            matches = matches + 1
+
+    return matches == (len(s) // 2)
+
+print(mystery('civil'))
+```
+Trace the function call mystery('civil') using the Python Visualizer. How many times is the line marked above reached?
+
+#Which is the best docstring description for function mystery?
+
+#Return True if and only if s is equal to the reverse of s.
+
+#Return True if and only if s[:len(s) // 2] is the same as s[len(s) // 2:].
+
+#Return True if and only if the number of duplicate characters in s is equal to len(s) // 2.
+
+#Return True if and only if there are exactly len(s) // 2 characters in s that are the same character.
+
+
+---
+
 # String
 
 ### for loop
