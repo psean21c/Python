@@ -74,7 +74,7 @@ The key to the answer is that, in Python, class variables are internally handled
 
 __Requirement__
 
-* Need to understand generator / clouser (late binding)
+* Need to understand generator / Closure (late binding)
 ```python
 def multiply(n):
   return [lambda x : i * x for i in range(n)]
