@@ -2,7 +2,7 @@
 
 # Chapter 6
 
-For Loops Over Indices, Parallel Lists and Strings, and Files
+## For Loops Over Indices, Parallel Lists and Strings, and Files
 
 ### Indices of List
 
@@ -115,9 +115,66 @@ print(treats[-3][-1])
 ```
 ---
 
-# String
 
-### for loop
+
+
+# Chapter 4
+
+## For Loops and Fancy String Manipulation
+
+### question 9
+
+Variables s1 and s2 refer to strs. The expression s1.find(s2) returns the index of the first occurrence of s2 in s1. 
+The expression s1.find(s2, 5) returns the index of the first occurrence of s2 in s1, starting at index 5 within s1. 
+(See help(str.find) for more info)
+
+Write an expression that produces the index of the second occurrence of s2 in s1. 
+If s2 does not occur twice in s1, the expression should produce -1. 
+Unlike str.count, you should allow overlapping occurrences of s2.
+
+For example, if s1 is 'banana' and s2 is 'ana', your expression should return 3. 
+If s1 is 'apple' and s2 is 'p', your expression should return 2.
+
+Your answer must be a single expression that does not use square brackets (string indexing and slicing), 
+and you can only call method str.find and use the arithmetic operators (+, -, etc.).
+
+Hint: call str.find twice in your expression.
+
+Answer:
+```python
+
+nextPoint = s1.find(s2,s1.find(s2)+1)
+print(nextPoint)
+```
+
+---
+
+
+
+### question 8
+Select the expression(s) that produce `True` when variable (code)s refers to a str that is entirely alphabetic or entirely numeric, and that produce `False` if the str is not entirely alphabetic and not entirely numeric.
+
+
+```python
+
+# 1)
+s.isalpha() or s.isnumeric()
+
+# 2)
+s.isalpha() and s.isnumeric()
+
+# 3)
+s.islower() or s.isupper()
+
+# 4)
+s.lower() or s.upper() or s.isdigit()
+
+```
+Answer: 1)
+
+---
+
+### question 14
 
 Part of the body of the following function is missing. Select the missing code fragment.
 
@@ -169,58 +226,11 @@ Answer: 3) and  4)
 
 ---
 
-### index
+# Chapter 5
 
-Variables s1 and s2 refer to strs. The expression s1.find(s2) returns the index of the first occurrence of s2 in s1. 
-The expression s1.find(s2, 5) returns the index of the first occurrence of s2 in s1, starting at index 5 within s1. 
-(See help(str.find) for more info)
+## While Loops, Lists, and Mutability
 
-Write an expression that produces the index of the second occurrence of s2 in s1. 
-If s2 does not occur twice in s1, the expression should produce -1. 
-Unlike str.count, you should allow overlapping occurrences of s2.
-
-For example, if s1 is 'banana' and s2 is 'ana', your expression should return 3. 
-If s1 is 'apple' and s2 is 'p', your expression should return 2.
-
-Your answer must be a single expression that does not use square brackets (string indexing and slicing), 
-and you can only call method str.find and use the arithmetic operators (+, -, etc.).
-
-Hint: call str.find twice in your expression.
-
-Answer:
-```python
-
-nextPoint = s1.find(s2,s1.find(s2)+1)
-print(nextPoint)
-```
-
----
-
-###
-
-Select the expression(s) that produce `True` when variable (code)s refers to a str that is entirely alphabetic or entirely numeric, and that produce `False` if the str is not entirely alphabetic and not entirely numeric.
-
-
-```python
-
-# 1)
-s.isalpha() or s.isnumeric()
-
-# 2)
-s.isalpha() and s.isnumeric()
-
-# 3)
-s.islower() or s.isupper()
-
-# 4)
-s.lower() or s.upper() or s.isdigit()
-
-```
-Answer: 1)
-
----
-
-###
+### 
 
 Consider this code, and choose calls that results in an error
 ```python
@@ -246,7 +256,7 @@ Answer: 1)
 
 ---
 
-###
+### question 4
 
 ```python
 def compress_list(L):
@@ -279,6 +289,8 @@ print(a)
 
 
 # Chapter7
+
+## Tuples and Dictionaries
 
 ### Question 1
 ```python
