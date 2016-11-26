@@ -17,7 +17,13 @@ l = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(merge(l))
 ```
 
-Very useful to group by number
+Very useful to make a new list having sum of 3 numbers by grouping
+```
+1, 2, 3, 4, 5, 6, 7, 8, 9
+=======  =======  ========
+      6,      15,       24
+
+```
 
 ###  Mystery
 
