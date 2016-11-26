@@ -25,6 +25,8 @@ Very useful to make a new list having sum of 3 numbers by grouping
 
 ```
 
+---
+
 ###  Mystery
 
 ```python
@@ -56,13 +58,14 @@ Which is the best docstring description for function mystery?
 Answer: 1)
 
 ---
+
 ### Shift Right
 
 ```python
 def shift_right(L):
     ''' (list) -> NoneType
 
-    Shift each item in L one position to the rightand shift the    last item to the first position.
+    Shift each item in L one position to the rightand shift the last item to the first position.
 
     Precondition: len(L) >= 1
     '''
@@ -92,6 +95,7 @@ Hint: the correct answer works from the end to the beginning of L.
 ```
 
 ---
+
 ### Indexing 
 
 Using numbers and indexing with non-negative indices, write an expression that evaluates to 7. Do not use addition, subtraction, or parentheses ( ) (brackets ([] are required).
@@ -121,7 +125,8 @@ Part of the body of the following function is missing. Select the missing code f
 def common_chars(s1, s2):
     '''(str, str) -> str
 
-    Return a new string containing all characters from s1 that     appear at leastonce in s2. The characters in the result        will appear in the same order asthey appear in s1.
+    Return a new string containing all characters from s1 that appear at leastonce in s2. 
+    The characters in the result will appear in the same order asthey appear in s1.
 
     >>> common_chars('abc', 'ad')
     'a'
@@ -132,15 +137,15 @@ def common_chars(s1, s2):
     >>> common_chars('abracadabra', 'ra')
     'araaara'
     '''
-
-
+    
     res = ''
-
     # BODY MISSING
     
     return res
     
-    
+```    
+
+```
     # 1)
     if ch in s2:
         for ch in s1:
