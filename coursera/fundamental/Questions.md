@@ -1,4 +1,66 @@
+# Final
 
+## 
+
+### question 5
+
+max, count on String
+
+```python
+def count_max_letters(s1, s2, letter):
+
+```
+
+    s1 and s2 are strings, and letter is a string of length 1.     
+	Count how manytimes letter appears in s1 and in s2, and return the bigger of the two counts.
+
+    The expression for the return statement is missing. Write that expression below. 
+    Use only the parameters, one call on function max, and two calls on str method count.
+
+    Do not use unnecessary parentheses: you need them for the function and method calls, but nothing else. 
+    Do not include the word return; just write the expression.
+
+    >>> count_max_letters('hello', 'world', 'l')
+    2
+    >>> count_max_letters('cat', 'abracadabra', 'a')
+    5
+
+Answer
+```python
+def count_max_letters(s1, s2, letter):
+    return max(s1.count(letter),s2.count(letter))
+```
+
+---
+
+### question 9
+
+List and Dictionary
+
+```python
+def get_keys(L, d):
+
+	result = []
+	for k in L:# CODE MISSING HERE
+		if k in d:
+			result.append(k)
+
+	return result
+```
+
+	(list, dict) -> list
+
+	Return a new list containing all the items in L that are keys in d.
+
+	>>> get_keys([1, 2, 'a'], {'a': 3, 1: 2, 4: 'w'})
+	[1, 'a']
+	
+Answer
+```python
+	for k in L:# CODE MISSING HERE
+```
+
+---
 
 # Chapter 6
 
