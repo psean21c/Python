@@ -2,19 +2,36 @@
 
 ## 
 
-### question 
+### question 13
 
 len and range
 
 ```python
+def count_chars(s):
 
+    d = {}
+
+    for c in s:
+        if not (c in d):
+            ????? # CODE MISSING HERE
+        else:
+            d[c] = d[c] + 1
+
+    return d
 ```
 
+    (str) -> dict of {str: int}
+
+    Return a dictionary where the keys are the characters in s and the values
+    are how many times those characters appear in s.
+
+    >>> count_chars('abracadabra')
+    {'a': 5, 'r': 2, 'b': 2, 'c': 1, 'd': 1}
 
 
 Answer
 ```python
-
+            d[c] = 1	
 ```	
 ---
 ### question 11
