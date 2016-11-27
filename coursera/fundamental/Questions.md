@@ -17,6 +17,49 @@ Answer
 
 ```	
 ---
+### question 11
+
+iterable on string, tuples, lists and dictionary
+
+
+    Strings, tuples, lists, and dictionaries can all be iterated over, and function len works with all of them.
+    Select the code fragment(s) below that run without error.
+    
+    
+```python
+def double_values(collection):
+	for v in range(len(collection)):
+		collection[v] = collection[v] * 2
+		
+# 1)
+L = [1, 2, 3]
+print(double_values(L))
+
+# 2)
+d = {0: 10, 1: 20, 2: 30}
+print(double_values(d))
+print(d)
+
+# 3)
+s = '123'
+print(double_values(s))
+print(s)
+
+# 4)
+t = (1, 2, 3)
+print(double_values(t))
+print(t)
+
+# 5)
+d = {1: 10, 2: 20, 3: 30}
+print(double_values(d))
+print(d)		
+```
+
+Answer: 1) 2)
+
+---
+
 ### question 12
 
 len and range
@@ -45,7 +88,12 @@ def get_diagonal_and_non_diagonal(L):
 
 Answer
 ```python
-
+			#print(L[row][col],end=" ")
+			if row == col:
+				diagonal.append(L[row][col])
+			else:
+				non_diagonal.append(L[row][col])
+				
 ```	
 ---
 ### question 10
