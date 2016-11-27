@@ -1,6 +1,53 @@
 # Final
 
 ## 
+
+### question 
+
+len and range
+
+```python
+
+```
+
+
+
+Answer
+```python
+
+```	
+---
+### question 12
+
+len and range
+
+```python
+def get_diagonal_and_non_diagonal(L):
+	diagonal = []
+	non_diagonal = []
+	for row in range(len(L)):
+		for col in range(len(L)):
+			?????
+			# CODE MISSING HERE
+
+	return (diagonal, non_diagonal)
+```
+
+    (list of list of int) -> tuple of (list of int, list of int)
+
+    Return a tuple where the first item is a list of the values on the
+    diagonal of square nested list L and the second item is a list of the rest
+    of the values in L.
+
+    >>> get_diagonal_and_non_diagonal([[1,  3,  5], [2,  4,  5], [4,  0,  8]])
+    ([1, 4, 8], [3, 5, 2, 5, 4, 0])
+
+
+Answer
+```python
+
+```	
+---
 ### question 10
 
 len and range
