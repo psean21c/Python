@@ -8,7 +8,7 @@ max, count on String
 
 ```python
 def count_max_letters(s1, s2, letter):
-
+    # CODE MISSING HERE
 ```
 
     s1 and s2 are strings, and letter is a string of length 1.     
@@ -41,7 +41,7 @@ List and Dictionary
 def get_keys(L, d):
 
 	result = []
-	for k in L:# CODE MISSING HERE
+	for ????? # CODE MISSING HERE
 		if k in d:
 			result.append(k)
 
