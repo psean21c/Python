@@ -3,8 +3,7 @@
 
 # Set / List
 
-Original
-https://www.toptal.com/python/interview-questions
+
 
 ### List: Comprehension
 
@@ -279,4 +278,7 @@ rather, it creates a a list of 5 references to the same list.
 [link to GitHub MarkDown](https://guides.github.com/features/mastering-markdown/)
 
 [link to HitchHiker's Python](http://docs.python-guide.org/en/latest/writing/gotchas/)
+
+[Top talent Python](https://www.toptal.com/python/interview-questions)
+
 
