@@ -88,7 +88,7 @@ It will print 'None' as below
 None
 ```
 
-
+In order to see the function's documentation, you need to add comments below the function with proper indentation
 ```python
 def f(n):
     '''int -> int
