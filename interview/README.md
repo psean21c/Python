@@ -4,7 +4,7 @@
 
 Below is my practice note which I prepared Python technical skills
 
-##
+## Print Directory + files 
 
 ```python
 def print_directory_contents(sPath):
