@@ -1,10 +1,12 @@
 
 ### map()
 
+map executes the function given as the first argument on all the elements of the iterable given as the second argument.
 
 __Requirement__
 
-* Need to convert from string to int in list / set
+* Need to understand the function of `map`
+
 
 ```python
 results = ['1', '2', '3']
@@ -28,6 +30,9 @@ output
 <map object at 0x000000000048E588>
 1 2 3 
 ```
+
+
+
 ---
 
 ### enumerate()
