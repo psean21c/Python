@@ -255,7 +255,7 @@ lst[:2] = ['a', 'b']
 ### List: extend List
 
 
-__Requirement__
+__Question-1__
 
 * Need to understand default value of [empyt list] for parameter of the function
 
@@ -289,7 +289,40 @@ list2 = [123]
 list3 = [10, 'a']
 ```
 
-__Requirement__
+
+**Initially I was expecting list1 didn't have 'a' **
+
+what actually happens is that the new default list is created only once when the function is defined, 
+and that same list is then used subsequently whenever extendList is invoked without a list argument being specified. 
+This is because expressions in default arguments are calculated when the function is defined, not when it’s called.
+
+list1 and list3 are therefore operating on the same default list, 
+whereas list2 is operating on a separate list that it created 
+(by passing its own empty list as the value for the list parameter).
+
+
+```python
+def extendList(val, list=None):
+  if list is None:
+    list = []
+  list.append(val)
+  return list
+```
+
+With this revised implementation, the output would be:
+
+Output
+```
+list1 = [10]
+
+list2 = [123]
+
+list1 = [10]
+list2 = [123]
+list3 = [10]
+```
+
+__Question-2__
 
 Different version for the same concept
 
@@ -328,38 +361,6 @@ print(l)            # [0, 1, 0, 1, 4]
 
 ```
 
-
-**Initially I was expecting list1 didn't have 'a' **
-
-what actually happens is that the new default list is created only once when the function is defined, 
-and that same list is then used subsequently whenever extendList is invoked without a list argument being specified. 
-This is because expressions in default arguments are calculated when the function is defined, not when it’s called.
-
-list1 and list3 are therefore operating on the same default list, 
-whereas list2 is operating on a separate list that it created 
-(by passing its own empty list as the value for the list parameter).
-
-
-```python
-def extendList(val, list=None):
-  if list is None:
-    list = []
-  list.append(val)
-  return list
-```
-
-With this revised implementation, the output would be:
-
-Output
-```
-list1 = [10]
-
-list2 = [123]
-
-list1 = [10]
-list2 = [123]
-list3 = [10]
-```
 
 ---
 ### List: List of Lists
