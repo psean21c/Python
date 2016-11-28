@@ -1,13 +1,41 @@
 
-#
+# Always be prepared
 
-The site below is my reference which I frequently study .. it is wonderful and well organized.
-
-http://www.bogotobogo.com/python/
 
 Below is my practice note which I prepared Python technical skills
 
-## 1) Write f() to yield list of power function
+##
+
+```python
+def print_directory_contents(sPath):
+    """
+    This function takes the name of a directory 
+    and prints out the paths files within that 
+    directory as well as any files contained in 
+    contained directories. 
+
+    This function is similar to os.walk. Please don't
+    use os.walk in your answer. We are interested in your 
+    ability to work with nested structures. 
+    """
+    # MISSING CODE
+    
+```
+
+Answer
+```python
+	for child in os.listdir(sPath): 
+		print(child)
+		childPath = os.path.join(sPath,child)
+		if os.path.isdir(childPath):
+			print_directory_contents(childPath)
+		else: 
+			print(childPath)
+```
+
+
+---
+## Write f() to yield list of power function
 
 ```python
 for x in f(6):
@@ -33,7 +61,7 @@ def f(n):
 ```
 ---
 
-## 2) The difference between lists and tuples? 
+## The difference between lists and tuples? 
 
 ```
 First list are mutable while tuples are not, 
@@ -47,7 +75,7 @@ Don't forget that you can use them a dictionary keys. For everything else use li
 ```
 
 ---
-## 3) A few differences between Python 2.x and 3.x
+## A few differences between Python 2.x and 3.x
 
 ```
 There are many answers here but for me some of the major changes in Python 3.x are: 
@@ -62,3 +90,9 @@ All classes are new style and the division of integers now returns float.
 To be continued
 ```
 
+---
+
+
+[보고 또 보고](http://www.bogotobogo.com/python/)
+
+[Code Mentor Python](https://www.codementor.io/python/tutorial/essential-python-interview-questions)
