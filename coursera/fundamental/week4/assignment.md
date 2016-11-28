@@ -2,7 +2,7 @@
 
 ### Step 1
 
-Open the starter code: a2_org.py
+Open the starter code: `a2_org.py`
 
 ### Step 2
 
