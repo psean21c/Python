@@ -52,15 +52,15 @@ Complete the functions in a3.py
 
 It will be useful to call some of these functions when implementing other functions. Here is some information about how the functions relate to each other and how they are used in the game:
 
-* is_valid_word: checks whether a word that player guessed is in the words list.
-* make_str_from_row: creates a string from the list of single character strings representing a row. Hint: look at how this is used by board_contains_word_in_row.
-* make_str_from_column: creates a string from the list of single character strings representing a column. Hint: this may be helpful for board_contains_word_in_column.
-* board_contains_word_in_row: checks whether a word occurs in any of the rows of the board. This function has been implemented in the starter code.
-* board_contains_word_in_column: checks whether a word occurs in any of the columns of the board. Hint: see board_contains_word_in_row.
-* board_contains_word: checks whether a word occurs in any of the rows or columns of the board.
-* word_score: calculates the score that a correctly guessed word earns. A word that is only 1 or 2 letters long earns 0 points, a word that is 3-6 letters long earns 1 point per letter, a word that is 7-9 letters long earns 2 points per letter, and a word that is 10 or more letters long earns 3 points per letter.
-* update_score: adds the score that a correctly guessed word earns to a player's score.
-* num_words_on_board: counts how many words from the words list appear on a particular board.
-* read_words: creates a words list made up of the words from a file. Hint: to test this function, you should open a file such as wordslist1.txt and pass the open file as an argument to this function. See a3_driver.py for an example of this.
-* read_board: creates a board made up of the rows of letters from a file. Hint: to test this function, you should open a file such as board1.txt and pass the open file as an argument to this function. See a3_driver.py for an example of this.
+* `is_valid_word`: checks whether a word that player guessed is in the words list.
+* `make_str_from_row`: creates a string from the list of single character strings representing a row. Hint: look at how this is used by board_contains_word_in_row.
+* `make_str_from_column`: creates a string from the list of single character strings representing a column. Hint: this may be helpful for board_contains_word_in_column.
+* `board_contains_word_in_row`: checks whether a word occurs in any of the rows of the board. This function has been implemented in the starter code.
+* `board_contains_word_in_column`: checks whether a word occurs in any of the columns of the board. Hint: see board_contains_word_in_row.
+* `board_contains_word`: checks whether a word occurs in any of the rows or columns of the board.
+* `word_score`: calculates the score that a correctly guessed word earns. A word that is only 1 or 2 letters long earns 0 points, a word that is 3-6 letters long earns 1 point per letter, a word that is 7-9 letters long earns 2 points per letter, and a word that is 10 or more letters long earns 3 points per letter.
+* `update_score`: adds the score that a correctly guessed word earns to a player's score.
+* `num_words_on_board`: counts how many words from the words list appear on a particular board.
+* `read_words`: creates a words list made up of the words from a file. Hint: to test this function, you should open a file such as wordslist1.txt and pass the open file as an argument to this function. See a3_driver.py for an example of this.
+* `read_board`: creates a board made up of the rows of letters from a file. Hint: to test this function, you should open a file such as board1.txt and pass the open file as an argument to this function. See a3_driver.py for an example of this.
 
