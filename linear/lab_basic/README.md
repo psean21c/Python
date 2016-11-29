@@ -58,14 +58,21 @@ first_five_pows_two = { ... for _ in {0,1,2,3,4} }
 
 ## Task 7: enter in the two new sets
 
+```python
+{x*y for x in {1,2,3} for y in {2,3,4}}
+```
 The value of the previous comprehension, {x*y for x in {1,2,3} for y in {2,3,4}}, is a seven-element set. 
-
+```
+{2,3,4,6,8,9,12}
+```
 Replace {1,2,3} and {2,3,4} with two other three-element sets so that the value becomes a nine-element set.
 
 ```python
+x1 = ????
+y1 = ????
+{x*y for x in x1 for y in y1}
 
 ```
-
 
 
 ## Task 8: enter in the two new sets
@@ -74,9 +81,9 @@ Replace {1,2,3} and {2,3,4} in the previous comprehension with two disjoint (i.e
 so that the value becomes a five-element set.
 
 ```python
-X2 = { ..., ..., ... }
-Y2 = { ..., ..., ... }
-
+x2 = ????
+y2 = ????
+{x*y for x in x1 for y in y1}
 ```
 
 ## Task 9
