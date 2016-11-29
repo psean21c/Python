@@ -2,7 +2,7 @@
 
 ### 
 
-A2 Problem Domain: Word Search Game
+A3 Problem Domain: Word Search Game
 
 You need to implement a word search game. The game involves a rectangular board of uppercase letters that is read from a file. For example, here are the file contents representing a (tiny) 2 row by 4 column board:
 
