@@ -235,21 +235,21 @@ list_sum_zip = [...]
 
 ## Task 21
 
-Suppose `dlist` is a list of dictionaries and `k` is a key that appears in all the dictionaries in dlist.
+Suppose `dlist` is a list of dictionaries and `k` is a key that appears in all the dictionaries in `dlist`.
 Write a comprehension whose value is the list whose i-th element is the value corresponding to key k in the i-th dictionary in dlist.
 
 Test your comprehension with some data. Here are some example data.
-```
-dlist = [{'James':'Sean', 'director':'Terence'}, {'James':'Roger','director':'Lewis'}, {'James':'Pierce', 'director':'Roger'}]
-k = 'James'
-```
 
 ```python
 dlist = [{'James':'Sean', 'director':'Terence'}, {'James':'Roger', 'director':'Lewis'}, {'James':'Pierce', 'director':'Roger'}]
 k = 'James'
 value_list = [...]
+```
 
 ```
+
+```
+
 
 ## Task 22
 
