@@ -135,7 +135,7 @@ L_average = ... # average of: [20, 10, 15, 75]
 
 ## Task 12
 
-Assign to the variable LofL the list of lists [[.25, .75, .1], [-1, 0], [4, 4, 4, 4]].
+Assign to the variable LofL the list of lists `[[.25, .75, .1], [-1, 0], [4, 4, 4, 4]]`.
 Using a comprehension, write an expression involving LofL that returns the sum of all the numbers in all three lists. 
 The expression has the form sum([sum(....
 ```python
@@ -146,7 +146,7 @@ LofL_sum = ... # use form: sum([sum(...) ... ])
 
 ## Task 13
 
-Write a double list comprehension over the lists ['A','B','C'] and [1,2,3] whose value is the
+Write a double list comprehension over the lists `['A','B','C'] and [1,2,3]` whose value is the
 list of all possible two-element lists [letter, number]. That is, the value is
 ```
 [['A', 1], ['A', 2], ['A', 3], ['B', 1], ['B', 2],['B', 3],['C', 1], ['C', 2], ['C', 3]]
@@ -235,8 +235,9 @@ list_sum_zip = [...]
 
 ## Task 21
 
-Suppose dlist is a list of dictionaries and k is a key that appears in all the dictionaries in dlist.
-Write a comprehension whose value is the list whose ith element is the value corresponding to key k in the i-th dictionary in dlist.
+Suppose `dlist` is a list of dictionaries and `k` is a key that appears in all the dictionaries in dlist.
+Write a comprehension whose value is the list whose i-th element is the value corresponding to key k in the i-th dictionary in dlist.
+
 Test your comprehension with some data. Here are some example data.
 ```
 dlist = [{'James':'Sean', 'director':'Terence'}, {'James':'Roger','director':'Lewis'}, {'James':'Pierce', 'director':'Roger'}]
