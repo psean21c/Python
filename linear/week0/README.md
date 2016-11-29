@@ -11,7 +11,7 @@ example: given list = [1,2,4,5,7] and num = 2, return [1,5,7].
 Problem 2: myLists(L)
 ```python
 input: list L of non-negative integers.
-output: a list of lists: for every element x in L create a list containing 1; 2; : : : ; x.
+output: a list of lists: for every element x in L create a list containing 1, 2, ..., x.
 example: given [1,2,4] return [[1],[1,2],[1,2,3,4]].
 ```
 
