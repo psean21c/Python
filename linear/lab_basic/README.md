@@ -89,16 +89,21 @@ y2 = ????
 ## Task 9
 
 Assign 10 to the variable base. Assign the set {0,1,2,3,4,5,6,7,8,9} to the variable digits.
-Now write an expression using a comprehension and base and digits whose value is the set of all at-most-three-digit numbers.
-Your expression should work for any base. For example, if you instead assign 2 to base and assign {0,1} to digits, 
-the value of your expression should be {0,1,2,3,4,5,6,7} because this is the set of numbers that, base two, have at most three digits.
-
 ```python
 base = 10
 digits = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+```
+
+Now write an expression using a comprehension and base and digits whose value is the set of all at-most-three-digit numbers.
+Your expression should work for any base. 
+```python
 three_digits_set = { ... }
 
 ```
+
+For example, if you instead assign 2 to base and assign {0,1} to digits, 
+the value of your expression should be {0,1,2,3,4,5,6,7} because this is the set of numbers that, base two, have at most three digits.
+
 ## Task 10
 
 Assume that S and T are assigned sets. Without using the intersection operator &, 
