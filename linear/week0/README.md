@@ -29,8 +29,8 @@ Problem 4: Each of the following asks for the sum of two complex numbers. For ea
 ```python
 a. (3 + 1 i) + (2 + 2 i)
 b. (􀀀1 + 2 i) + (1 􀀀 1 i)
-c. (2 + 0 i) + (􀀀3 + :001 i)
-d. 4(0 + 2 i) + (:001 + 1 i)
+c. (2 + 0 i) + (􀀀3 + 0.001 i)
+d. 4(0 + 2 i) + (0.001 + 1 i)
 ```
 
 Problem 5: For each of the following, calculate the answer over GF(2).
