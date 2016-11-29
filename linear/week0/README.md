@@ -27,17 +27,17 @@ example: given f = f0:'a'; 1:'b'g and g = f'a':'apple'; 'b':'banana'g, return f0
 
 Problem 4: Each of the following asks for the sum of two complex numbers. For each, nd the solution.
 ```python
-a. (3 + 1i) + (2 + 2i)
-b. (􀀀1 + 2i) + (1 􀀀 1i)
-c. (2 + 0i) + (􀀀3 + :001i)
-d. 4(0 + 2i) + (:001 + 1i)
+a. (3 + 1 i) + (2 + 2 i)
+b. (􀀀1 + 2 i) + (1 􀀀 1 i)
+c. (2 + 0 i) + (􀀀3 + :001 i)
+d. 4(0 + 2 i) + (:001 + 1 i)
 ```
 
 Problem 5: For each of the following, calculate the answer over GF(2).
 ```python
 a. 1 + 1 + 1 + 0
-b. 1  1 + 0  1 + 0  0 + 1  1
-c. (1 + 1 + 1)  (1 + 1 + 1 + 1)
+b. 1 . 1 + 0 . 1 + 0 . 0 + 1 . 1
+c. (1 + 1 + 1) . (1 + 1 + 1 + 1)
 ```
 
 
