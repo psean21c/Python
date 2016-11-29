@@ -1,12 +1,11 @@
-#Python
-Let's fly together
+# Let's FLY together - Python
 
-###Python 3 API
 
-[Tutorial](https://docs.python.org/3/tutorial/index.html)
+## Python 3 API
 
-* API Library
-[API](https://docs.python.org/3/library/index.html)
+[Official Tutorial](https://docs.python.org/3/tutorial/index.html)
+
+[Official API](https://docs.python.org/3/library/index.html)
 
 
 ## Python Site 
@@ -15,6 +14,7 @@ Let's fly together
 
 [Visualize Python](http://pythontutor.com/visualize.html)
 
+---
 
 ## course for python of Linear Algebra
 
@@ -30,15 +30,17 @@ Let's fly together
 
 [Financial Site](https://www.quantopian.com/)
 
+---
 
 ## Other information
 
-### Common errors in python
+Common errors in python
 [Common RunTime Error](http://inventwithpython.com/blog/2012/07/09/16-common-python-runtime-errors/)
 
-### How to convert python 2 to 3 in windows
+How to convert python 2 to 3 in windows
 [Convert 2 -> 3](http://www.diveinto.org/python3/porting-code-to-python-3-with-2to3.html)
 
+---
 
 ## Basic Data Structure
 list     [  ]
@@ -47,8 +49,10 @@ tuple  ( )
 
 dictionary { } 
 
+---
 
 ## Personal online Game
+
 [Spacecraft](http://www.codeskulptor.org/#user27_psQA3GeOOR_44.py)
 
 [Ping Pong Game](http://www.codeskulptor.org/#user23_BLljr3PIQN_26.py)
