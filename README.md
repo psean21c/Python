@@ -34,10 +34,8 @@
 
 ## Other information
 
-Common errors in python
-[Common RunTime Error](http://inventwithpython.com/blog/2012/07/09/16-common-python-runtime-errors/)
+[Common RunTime Error in Python](http://inventwithpython.com/blog/2012/07/09/16-common-python-runtime-errors/)
 
-How to convert python 2 to 3 in windows
 [Convert 2 -> 3](http://www.diveinto.org/python3/porting-code-to-python-3-with-2to3.html)
 
 ---
