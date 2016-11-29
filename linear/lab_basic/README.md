@@ -158,14 +158,13 @@ cartesian_product = ... # use form: [ ... {'A','B','C'} ... {1,2,3} ... ]
 
 ```
 
-
-
 ## Task 14
 
-Suppose S is a set of integers, e.g. f{-4, -2, 1, 2, 5, 0}. Write a triple comprehension whose value
+Suppose S is a set of integers, e.g. `f{-4, -2, 1, 2, 5, 0}`. Write a triple comprehension whose value
 is a list of all three-element tuples (i, j, k) such that i, j, k are elements of S whose sum is zero.
 
 ```python
+????
 S = {-4, -2, 1, 2, 5, 0}
 zero_sum_list = [ ... ] 
 
