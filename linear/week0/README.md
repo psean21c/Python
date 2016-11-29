@@ -20,7 +20,8 @@ Problem 3: myFunctionComposition(f,g)
 ```python
 input: two functions f and g, represented as dictionaries, such that g  f exists.
 output: dictionary that represents a function g  f.
-example: given f = f0:'a'; 1:'b'g and g = f'a':'apple'; 'b':'banana'g, return f0:'apple'; 1:'banana'g.
+example: given f = {0:'a'; 1:'b'} and g = {'a':'apple'; 'b':'banana'}, 
+         return {0:'apple'; 1:'banana'}.
 ```
 
 
