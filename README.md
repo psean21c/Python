@@ -3,16 +3,10 @@ Let's fly together
 
 ###Python 3 API
 
-* Tutorial
-https://docs.python.org/3/tutorial/index.html
+[Tutorial](https://docs.python.org/3/tutorial/index.html)
 
 * API Library
-https://docs.python.org/3/library/index.html
-
-
-## How to convert python 2 to 3 in windows
-http://www.diveinto.org/python3/porting-code-to-python-3-with-2to3.html
-
+[API](https://docs.python.org/3/library/index.html)
 
 
 ## Python Site 
@@ -22,24 +16,28 @@ http://www.diveinto.org/python3/porting-code-to-python-3-with-2to3.html
 [Visualize Python](http://pythontutor.com/visualize.html)
 
 
-
 ## course for python of Linear Algebra
-https://www.coursera.org/learn/learn-to-program/
 
-https://www.udemy.com/complete-python-bootcamp/
+[Python @UoT](https://www.coursera.org/learn/learn-to-program/)
 
-Personal Blog for Python
-http://www.bogotobogo.com/python/
+[Udemy Python Bootcamp](https://www.udemy.com/complete-python-bootcamp/)
 
-AWS
-https://linuxacademy.com/
+[보고 또 보고](http://www.bogotobogo.com/python/)
 
-https://acloud.guru/
+[AWS](https://linuxacademy.com/)
+
+[ACloud Guru](https://acloud.guru/)
+
+[Financial Site](https://www.quantopian.com/)
 
 
-## Common errors in python
-http://inventwithpython.com/blog/2012/07/09/16-common-python-runtime-errors/
+## Other information
 
+### Common errors in python
+[Common RunTime Error](http://inventwithpython.com/blog/2012/07/09/16-common-python-runtime-errors/)
+
+### How to convert python 2 to 3 in windows
+[Convert 2 -> 3](http://www.diveinto.org/python3/porting-code-to-python-3-with-2to3.html)
 
 
 ## Basic Data Structure
