@@ -4,11 +4,11 @@
 
 ### question 13
 
-len and range
+* key, value in dictionary
 
 ```python
 def count_chars(s):
-
+    #(str) -> dict of {str: int}
     d = {}
 
     for c in s:
@@ -20,14 +20,12 @@ def count_chars(s):
     return d
 ```
 
-    (str) -> dict of {str: int}
+Return a dictionary where the keys are the characters in s & the values are how many times those characters appear in s.
 
-    Return a dictionary where the keys are the characters in s and the values
-    are how many times those characters appear in s.
-
+```
     >>> count_chars('abracadabra')
     {'a': 5, 'r': 2, 'b': 2, 'c': 1, 'd': 1}
-
+```
 
 Answer
 ```python
@@ -36,11 +34,11 @@ Answer
 ---
 ### question 11
 
-iterable on string, tuples, lists and dictionary
+* iterable on string, tuples, lists and dictionary
 
 
-    Strings, tuples, lists, and dictionaries can all be iterated over, and function len works with all of them.
-    Select the code fragment(s) below that run without error.
+Strings, tuples, lists, and dictionaries can all be iterated over, and function len works with all of them.
+Select the code fragment(s) below that run without error.
     
     
 ```python
@@ -82,7 +80,9 @@ Answer: 1) 2)
 len and range
 
 ```python
+
 def get_diagonal_and_non_diagonal(L):
+	#(list of list of int) -> tuple of (list of int, list of int)
 	diagonal = []
 	non_diagonal = []
 	for row in range(len(L)):
@@ -93,15 +93,15 @@ def get_diagonal_and_non_diagonal(L):
 	return (diagonal, non_diagonal)
 ```
 
-    (list of list of int) -> tuple of (list of int, list of int)
 
-    Return a tuple where the first item is a list of the values on the
-    diagonal of square nested list L and the second item is a list of the rest
-    of the values in L.
+Return a tuple where the first item is a list of the values on the diagonal of square nested list L 
 
+and the second item is a list of the rest of the values in L.
+
+```
     >>> get_diagonal_and_non_diagonal([[1,  3,  5], [2,  4,  5], [4,  0,  8]])
     ([1, 4, 8], [3, 5, 2, 5, 4, 0])
-
+```
 
 Answer
 ```python
@@ -115,10 +115,12 @@ Answer
 ---
 ### question 10
 
-len and range
+* len() and range()
 
 ```python
 def are_lengths_of_strs(L1, L2):
+	#(list of int, list of str) -> bool
+
 	result = True
 	for i in range(len(L1)):
 		print(i)
@@ -127,16 +129,14 @@ def are_lengths_of_strs(L1, L2):
 	return result
 ```
 
-    (list of int, list of str) -> bool
 
-    Return True if and only if all the ints in L1 are the lengths of the strings
-    in L2 at the corresponding positions.
+Return True if and only if all the ints in L1 are the lengths of the strings in L2 at the corresponding positions.
 
     Precondition: len(L1) == len(L2)
-
+```
     >>> are_lengths_of_strs([4, 0, 2], ['abcd', '', 'ef'])
     True
-
+```
 Answer
 ```python
 	if L1[i] != len(L2[i]):# CODE MISSING HERE
