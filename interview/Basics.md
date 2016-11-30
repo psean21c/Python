@@ -31,8 +31,37 @@ output
 1 2 3 
 ```
 
+---
+### filter()
 
 
+```python
+mult1 = filter(lambda x: x % 3 == 0, [1, 2, 3, 4, 5, 6, 7, 8, 9])
+print(mult1)
+
+for i in mult1:
+    print(i, end=" ")
+
+```
+If you print mult1, it doesn't directly give you the values, Instead it will show object address.
+```
+<filter object at 0x000000000069E668>
+3 6 9 
+```
+
+```python
+mult2 = list(filter(lambda x: x % 3 == 0, [1, 2, 3, 4, 5, 6, 7, 8, 9]))
+print(mult2)
+
+for i in mult2:
+    print(i, end=" ")  
+
+```
+If you embrace it with list after filter(), it will be different.
+```
+[3, 6, 9]
+3 6 9 
+```
 ---
 
 ### enumerate()
