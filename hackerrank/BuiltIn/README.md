@@ -101,6 +101,15 @@ This is the same comprehension with different input to avoid having repetitive i
 x, y, z, n = (int(input()) for _ in range(4))
 print ([[a,b,c] for a in range(x+1) for b in range(y+1) for c in range(z+1) if a + b + c != n ])
 ```
+
+__ESolutionByYoon.js__
+* Different solution wrtten by __Mr. YeoJin Yoon__
+Not only for 4 inputs such as sum(x,y,z) == n
+It was improved to accommodate more general cases ..
+
+calculate(1,2,3,4) 
+calculate(1,2,3,4,5,6,7) 
+
 ### F.py : List Comprehension
 
 https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list
