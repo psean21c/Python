@@ -104,11 +104,15 @@ print ([[a,b,c] for a in range(x+1) for b in range(y+1) for c in range(z+1) if a
 
 __ESolutionByYoon.js__
 * Different solution wrtten by __Mr. YeoJin Yoon__
+
 Not only for 4 inputs such as sum(x,y,z) == n
+
 It was improved to accommodate more general cases ..
 
+```
 calculate(1,2,3,4) 
 calculate(1,2,3,4,5,6,7) 
+```
 
 ### F.py : List Comprehension
 
