@@ -1,4 +1,31 @@
 
+### Situation
+
+# Different format of inputs.
+
+It is different when you have two inputs from one line and two lines
+```python
+2 3
+```
+
+
+```python
+2
+3
+```
+
+```python
+# 2)
+x = int(input())
+y = int(input())
+
+# 1)
+X =[int(a) for a in input().strip().split()]
+N,M = X
+```
+
+---
+
 ### Requirement
 
 * Save separated values into dictionary right after reading the line()
