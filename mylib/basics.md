@@ -62,6 +62,38 @@ If you embrace it with list after filter(), it will be different.
 [3, 6, 9]
 3 6 9 
 ```
+
+
+---
+### join()
+
+```python
+'''
+input/output
+hello world
+>>
+Hello World
+
+'''
+
+def capitalize(string):
+    pass
+
+if __name__ == '__main__':
+    string = input()
+    capitalized_string = capitalize(string)
+    print(capitalized_string)
+    
+```
+Solution
+```
+def capitalize(string):
+#     for a in string.split():
+#         print(a)
+#    print(' '.join(a.capitalize() for a in string.split()))
+    re = ' '.join(a.capitalize() for a in string.split())
+    return re
+```
 ---
 
 ### enumerate()
