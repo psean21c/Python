@@ -402,18 +402,4 @@ rather, it creates a a list of 5 references to the same list.
 ---
 
 
-### Reference
-
-[link to Python 3 API](https://docs.python.org/3.6/library/stdtypes.html#sequence-types-list-tuple-range)
-
-[link to GitHub MarkDown](https://guides.github.com/features/mastering-markdown/)
-
-[link to HitchHiker's Python](http://docs.python-guide.org/en/latest/writing/gotchas/)
-
-[Top talent Python](https://www.toptal.com/python/interview-questions)
-
-[보고 또 보고](http://www.bogotobogo.com/python/)
-
-[Code Mentor Python](https://www.codementor.io/python/tutorial/essential-python-interview-questions)
-
 
