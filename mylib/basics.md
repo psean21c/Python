@@ -106,7 +106,17 @@ You will be seeing object not the string.
 None
 ```
 
+It is different 
 
+```
+    return ' '.join(a.capitalize() for a in string.split(' '))  # 1)
+    return ' '.join(a.capitalize() for a in string.split())     # 2)
+    
+ s d f g h j  k l z   # input
+ S D F G H J  K L Z   # 1)
+ S D F G H J K L Z    # 2) remove one space if there are twos
+ 
+```
 
 ---
 
