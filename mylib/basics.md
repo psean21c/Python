@@ -87,7 +87,7 @@ if __name__ == '__main__':
     
 ```
 Solution
-```
+```python
 def capitalize(string):
 #     for a in string.split():
 #         print(a)
@@ -95,8 +95,8 @@ def capitalize(string):
     re = ' '.join(a.capitalize() for a in string.split())
     return re
 ```
-if you call the method below
-```
+if you print the method after calling the method ...
+```python
 def capitalize(string):
     print(a.capitalize() for a in string.split())
 ```
