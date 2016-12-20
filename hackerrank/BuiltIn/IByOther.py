@@ -19,3 +19,14 @@ n = int(input())
 g.sort(key=lambda x: x[n])
 for x in g:
     print(" ".join(map(str, x)))
+
+
+# @xkeemy
+N,M = (int(i) for i in input().split())
+arr = [tuple(int(i) for i in input().split()) for _ in range(N)]
+K = int(input())
+
+arr.sort(key=lambda x: x[K])
+
+for _ in range(N):
+    print(*arr[_])
