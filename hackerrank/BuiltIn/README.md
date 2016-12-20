@@ -248,6 +248,32 @@ How to use the format : 56.00
 print('{0:.2f}'.format(number))
 ```
 
+### I.py : Sort Data
+
+https://www.hackerrank.com/challenges/python-sort-sort/submissions
+
+* return list object
+
+Input
+```
+5 3
+10 2 5
+7 1 0
+9 9 9
+1 23 12
+6 5 9
+1
+```
+Output
+```
+7 1 0
+10 2 5
+6 5 9
+9 9 9
+1 23 12
+```
+
+---
 # Built In function in Python3
 ![pybuiltin](https://cloud.githubusercontent.com/assets/5623445/20272862/438a0cf4-aa5d-11e6-852d-fc12a416c85b.PNG)
 
