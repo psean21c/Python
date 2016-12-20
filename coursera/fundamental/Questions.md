@@ -595,7 +595,10 @@ Which one can be used as dictionary keys?
 d1= {['a', 'b']:1} # unhashable type: 'list'
 d2={('single',):1} # {('single',): 1}
 d3={(1, 'fred', 2.0):1} # {(1, 'fred', 2.0): 1}
-d4={{1: 2, 3: 4}:1} # TypeError: unhashable type: 'dict'
+```
+d4={{1: 2, 3: 4}:1}
+```
+ # TypeError: unhashable type: 'dict'
 ```
 
 ### Question 8
