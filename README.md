@@ -5,6 +5,8 @@
 
 [Official Tutorial](https://docs.python.org/3/tutorial/index.html)
 
+[link to Python 3 API](https://docs.python.org/3.6/library/stdtypes.html#sequence-types-list-tuple-range)
+
 [Official API](https://docs.python.org/3/library/index.html)
 
 
@@ -14,7 +16,13 @@
 
 [Visualize Python](http://pythontutor.com/visualize.html)
 
----
+[link to GitHub MarkDown](https://guides.github.com/features/mastering-markdown/)
+
+[link to HitchHiker's Python](http://docs.python-guide.org/en/latest/writing/gotchas/)
+
+[Code Mentor Python](https://www.codementor.io/python/tutorial/essential-python-interview-questions)
+
+
 
 ## course for python of Linear Algebra
 
