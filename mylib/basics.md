@@ -32,6 +32,24 @@ output
 ```
 
 ---
+### list
+
+```python
+#lst = ([10, 2, 5], [7, 1, 0], [9, 9, 9], [1, 23, 12], [6, 5, 9])
+sorted(lst, key=itemgetter(1))
+
+# You are expecting to see the 2nd line, but it's not
+[[10, 2, 5], [7, 1, 0], [9, 9, 9], [1, 23, 12], [6, 5, 9]]
+[[7, 1, 0], [10, 2, 5], [9, 9, 9], [6, 5, 9], [1, 23, 12]]
+
+lst2 = sorted(lst, key=itemgetter(1))
+print(lst2)
+
+```
+
+
+
+---
 ### filter()
 
 
