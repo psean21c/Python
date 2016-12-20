@@ -65,8 +65,9 @@ If you embrace it with list after filter(), it will be different.
 
 
 ---
-### join()
+### join() + split()
 
+Need to understand the return type of split() and join()
 ```python
 '''
 input/output
@@ -94,6 +95,19 @@ def capitalize(string):
     re = ' '.join(a.capitalize() for a in string.split())
     return re
 ```
+if you call the method below
+```
+def capitalize(string):
+    print(a.capitalize() for a in string.split())
+```
+You will be seeing object not the string.
+```
+<generator object <genexpr> at 0x000000000283B6C0>
+None
+```
+
+
+
 ---
 
 ### enumerate()
