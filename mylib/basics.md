@@ -38,12 +38,15 @@ output
 #lst = ([10, 2, 5], [7, 1, 0], [9, 9, 9], [1, 23, 12], [6, 5, 9])
 sorted(lst, key=itemgetter(1))
 
-# You are expecting to see the 2nd line, but it's not
+# You are expecting to see the 2nd line, 
+# but it's not unless you assing it to another list object
 [[10, 2, 5], [7, 1, 0], [9, 9, 9], [1, 23, 12], [6, 5, 9]]
 [[7, 1, 0], [10, 2, 5], [9, 9, 9], [6, 5, 9], [1, 23, 12]]
 
+# Assign it to lst2
 lst2 = sorted(lst, key=itemgetter(1))
 print(lst2)
+[[7, 1, 0], [10, 2, 5], [9, 9, 9], [6, 5, 9], [1, 23, 12]]
 
 ```
 
