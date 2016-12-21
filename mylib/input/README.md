@@ -24,6 +24,21 @@ X =[int(a) for a in input().strip().split()]
 N,M = X
 ```
 
+In order to read inputs below
+```
+4 3
+90
+180
+270
+```
+3 means there are 3 lines below..
+
+```python
+n,q = input().strip().split(' ')
+n,q = [int(n),int(q)]
+for a0 in range(q):
+    angle = int(input().strip())
+```
 ---
 
 ### Requirement
