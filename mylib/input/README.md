@@ -1,7 +1,7 @@
 
-### Situation
+# Situation
 
-# Different format of inputs.
+### Different format of inputs.
 
 It is different when you have two inputs from one line and two lines
 ```python
