@@ -591,7 +591,7 @@ Which one can be used as dictionary keys?
 {1: 2, 3: 4}
 ```
 
-```
+```python
 # 1) d1= {['a', 'b']:1} # unhashable type: 'list'
 # 2) d2={('single',):1} # {('single',): 1}
 # 3) d3={(1, 'fred', 2.0):1} # {(1, 'fred', 2.0): 1}
