@@ -273,6 +273,8 @@ Output
 1 23 12
 ```
 
+![sortdata](https://cloud.githubusercontent.com/assets/5623445/21412584/4dd0e168-c7bf-11e6-96b7-d5e8f0559137.PNG)
+
 ---
 # Built In function in Python3
 ![pybuiltin](https://cloud.githubusercontent.com/assets/5623445/20272862/438a0cf4-aa5d-11e6-852d-fc12a416c85b.PNG)
