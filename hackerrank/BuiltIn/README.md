@@ -273,7 +273,7 @@ Output
 1 23 12
 ```
 
-![sortdata](https://cloud.githubusercontent.com/assets/5623445/21412584/4dd0e168-c7bf-11e6-96b7-d5e8f0559137.PNG)
+![sortdata](https://cloud.githubusercontent.com/assets/5623445/21421056/d85bd8a8-c7fe-11e6-8791-4c4a98cf5f75.PNG)
 
 ---
 # Built In function in Python3
