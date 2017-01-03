@@ -41,9 +41,13 @@ In order to read inputs below
 3 means there are 3 lines below..
 
 ```python
+# 1)
 N,Q = input().strip().split(' ')
 N,Q = [int(N),int(Q)]
 # Without int(N), it will give error - not convert from str to int
+
+# 2) Or you can map after converting to int
+N,Q = map(int,input().strip().split(' '))
 
 for q in range(Q):
     angle = int(input().strip())
