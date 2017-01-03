@@ -4,24 +4,31 @@
 ### Different format of inputs.
 
 It is different when you have two inputs from one line and two lines
+
 ```python
+# 1)
 2 3
 ```
 
 
 ```python
+# 2)
 2
 3
 ```
 
 ```python
+# 1)
+# It will give error when you provide input data as 2)
+X =[int(a) for a in input().strip().split()]
+N,M = X
+
+
 # 2)
+# It will give error when you provide input data as 1)
 x = int(input())
 y = int(input())
 
-# 1)
-X =[int(a) for a in input().strip().split()]
-N,M = X
 ```
 
 In order to read inputs below
@@ -34,9 +41,11 @@ In order to read inputs below
 3 means there are 3 lines below..
 
 ```python
-n,q = input().strip().split(' ')
-n,q = [int(n),int(q)]
-for a0 in range(q):
+N,Q = input().strip().split(' ')
+N,Q = [int(N),int(Q)]
+# Without int(N), it will give error - not convert from str to int
+
+for q in range(Q):
     angle = int(input().strip())
 ```
 ---
