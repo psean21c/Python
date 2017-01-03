@@ -163,7 +163,7 @@ output
 
 ```
 First list are mutable while tuples are not, 
-and second tuples can be hashed to be used as keys for dictionaries. 
+Secondly tuples can be hashed to be used as keys for dictionaries. 
 
 As an example of their usage, tuples are used when the order of the elements in the sequence matters 
 e.g. a geographic coordinates, "list" of points in a path or route, 
