@@ -50,7 +50,7 @@ for q in range(Q):
     print()
 print()
 
-# 5 X 3 order
+# 5 X 3 order: I used this loop for my solution without zip()
 for n in range(N):
     midSum = 0
     for q in range(Q):
@@ -79,5 +79,9 @@ Result
 90.0 91.0 85.0 88.0 86.0 
 91.0 92.0 83.0 89.0 90.5 
 
-89.0 90.0 91.0 90.0 91.0 92.0 78.0 85.0 83.0 93.0 88.0 89.0 80.0 86.0 90.5 
+89.0 90.0 91.0 
+90.0 91.0 92.0 
+78.0 85.0 83.0 
+93.0 88.0 89.0 
+80.0 86.0 90.5 
 ```
