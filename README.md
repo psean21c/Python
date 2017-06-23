@@ -1,6 +1,15 @@
 # Let's FLY together - Python
 
 
+## Basic Data Structure
+```
+list     [  ]
+
+tuple  ( )
+
+dictionary { } 
+```
+
 ## Python 3 API
 
 [Official Tutorial](https://docs.python.org/3/tutorial/index.html)
@@ -45,15 +54,6 @@
 [Common RunTime Error in Python](http://inventwithpython.com/blog/2012/07/09/16-common-python-runtime-errors/)
 
 [Convert 2 -> 3](http://www.diveinto.org/python3/porting-code-to-python-3-with-2to3.html)
-
----
-
-## Basic Data Structure
-list     [  ]
-
-tuple  ( )
-
-dictionary { } 
 
 ---
 
