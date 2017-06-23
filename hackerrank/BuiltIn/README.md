@@ -1,25 +1,27 @@
 
 # Basic 
 
-### A.py : If - else
-
-https://www.hackerrank.com/challenges/py-if-else
-
-__Requirement__
 
 * Need to convert input value to integer
 
 ```python
 N = int(input().strip())
+
+def is_leap(year):
+    leap = False
+    # Write your logic here
+    if(year%4==0):
+        if(year%100==0 and year%400!=0):
+            leap = False
+        else:
+            leap = True
+    return leap
+
+if __name__ == '__main__':
+    n = int(input())
+    print(is_leap(n))
 ```
 
-### B.py : function
-
-https://www.hackerrank.com/challenges/write-a-function
-
-__Requirement__
-
-* Write a basic function for leap day of February
 
 ### C.py : print()
 
