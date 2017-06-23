@@ -20,33 +20,16 @@ def is_leap(year):
 if __name__ == '__main__':
     n = int(input())
     print(is_leap(n))
+
+# Need to understand different options for print() built in function
+N = int(input())
+for i in range(1, N+1):
+    print(i, end="")
+    
 ```
 
 
-### C.py : print()
 
-https://www.hackerrank.com/challenges/python-print
-
-__Requirement__
-
-* Need to understand different options for print() built in function
-
-```
-Read an integer N.
-
-Without using any string methods, try to print the following:
-
-123..N
-```
-
-Input
-```
-4
-```
-Output
-```
-1234
-```
 ### D.py : List
 
 https://www.hackerrank.com/challenges/python-lists
