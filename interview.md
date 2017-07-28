@@ -1,6 +1,6 @@
 
 
-''' python
+```python
 import timeit
 
 NB_ITEMS = 100000
@@ -65,4 +65,4 @@ print timeit.timeit(test_set, number=10)
 
 21.8953108788
 0.0142509937286
-'''
+```
