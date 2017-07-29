@@ -159,7 +159,7 @@ while True:
 
 ### comprehensions
 
-'''python
+```python
 
 
 # List
@@ -192,4 +192,4 @@ print my_dict
 
 my_dict2 = {x: x**2 for x in range(10)}
 print my_dict2
-'''
+```
