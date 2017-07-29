@@ -1,5 +1,5 @@
 
-
+### Lists vs Sets
 ```python
 import timeit
 
@@ -65,4 +65,38 @@ print timeit.timeit(test_set, number=10)
 
 21.8953108788
 0.0142509937286
+```
+
+### Objects
+```python
+class MyClass(object):
+
+    def __init__(self, x):
+        self.x = x
+
+    def returns_double(self):
+        return self.x * 2
+
+class MyClass2(MyClass):
+    def returns_triple(self):
+        return self.x * 3
+
+
+myobject = MyClass(2)
+print (myobject.x)
+print (myobject.returns_double())
+
+myobject2 = MyClass2(3)
+
+print (myobject2.returns_triple())
+
+myobject3 = myobject
+
+print (myobject is myobject2) # False
+print (myobject is myobject3)  # True
+
+print (isinstance(myobject, MyClass)) # True
+print (isinstance(myobject, MyClass2)) # False
+print (isinstance(myobject2, MyClass2)) # True
+print (isinstance(myobject2, MyClass)) # True
 ```
