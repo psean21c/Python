@@ -225,6 +225,21 @@ print function2(30)
 0, 1, 2, 3
 0,  .... n-1, n
 
+### Solution
+def fun1(n):
+    result = []
+    for i in range(1, n+2):
+        for j in range(i):
+            result.append(j)
+
+    return result
+
+print fun1(4)
+
+def fun2(n):
+    return [j for i in range(n + 1) for j in range(i + 1)]
+
+print fun2(4)
 
 ```
 
