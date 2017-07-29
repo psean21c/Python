@@ -100,3 +100,61 @@ print (isinstance(myobject, MyClass2)) # False
 print (isinstance(myobject2, MyClass2)) # True
 print (isinstance(myobject2, MyClass)) # True
 ```
+
+### Methods in OOP
+```python
+
+from random import choice
+from time import sleep
+
+
+MOODS = ['relaxed','inquisitive','grumpy']
+class Cat(object):
+
+    def __init__(self, name, color):
+        self.name = name
+        self.color = color
+        self.mood = choice(MOODS)
+
+    def __str__(self):
+        return 'My name is %s' % (self.name)
+
+    def ask_food(self):
+        return 'More food please'
+
+    def get_mood(self):
+        self.mood = choice(MOODS)
+
+
+cat1 = Cat('Tiger','blue')
+print (cat1)
+print (cat1.name)
+
+cat2 = Cat('Fuma','white')
+cat3 = Cat('Lion','green')
+
+cats = [cat1,cat2,cat3]
+
+print [cat for cat in cats] # Will not use the __str__ representation
+
+print [str(cat) for cat in cats]
+
+print [cat.name for cat in cats]
+
+print [cat.name for cat in cats if cat.color == 'white']
+
+print cat1.ask_food()
+
+print [(cat.name, cat.ask_food(), cat.get_mood()) for cat in cats]
+
+print cat1.mood
+
+while True:
+    for cat in cats:
+        cat.get_mood()
+        print '%s : %s' % (cat.name, cat.mood)
+    sleep(2)
+
+```
+
+
