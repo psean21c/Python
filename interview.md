@@ -157,4 +157,39 @@ while True:
 
 ```
 
+### comprehensions
 
+'''python
+
+
+# List
+output_list = []
+for x in range(10):
+    output_list.append(x**2)
+
+print output_list
+
+output_list2 = [x**2 for x in range(10)]
+print output_list2
+
+# Set
+output_set = set([])
+for x in range(10):
+    output_set.add(x**2)
+
+print output_set
+
+#output_set2 = {x**2 for x in range(10)} # python 2.6 not support set comprehension
+#print output_set2
+
+
+# a dictionary
+my_dict = {}
+for x in range(10):
+    my_dict[x] = x**2
+
+print my_dict
+
+my_dict2 = {x: x**2 for x in range(10)}
+print my_dict2
+'''
