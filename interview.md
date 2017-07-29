@@ -194,7 +194,7 @@ my_dict2 = {x: x**2 for x in range(10)}
 print my_dict2
 
 
-#
+# comprehension with condition
 def function(n):
     result = []
     for i in range(1,n):
@@ -211,4 +211,20 @@ def function2(n):
     return [i for i in range(1,n) if i % 3 == 0]
 
 print function2(30)
+#[3, 6, 9, 12, 15, 18, 21, 24, 27]
+
+
 ```
+
+### List of comprehension
+
+```python
+0
+0, 1
+0, 1, 2
+0, 1, 2, 3
+0,  .... n-1, n
+
+
+```
+
