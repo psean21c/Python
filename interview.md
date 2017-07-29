@@ -192,4 +192,23 @@ print my_dict
 
 my_dict2 = {x: x**2 for x in range(10)}
 print my_dict2
+
+
+#
+def function(n):
+    result = []
+    for i in range(1,n):
+        if i % 3 ==0:
+            result.append(i)
+
+    return result
+
+print function(30)
+
+
+# Same as function(n) with comprehension
+def function2(n):
+    return [i for i in range(1,n) if i % 3 == 0]
+
+print function2(30)
 ```
