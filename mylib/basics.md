@@ -216,3 +216,7 @@ It will print the documentation string for a function
 int -> int
 This function does blar blar
 ```
+
+### String Format
+
+https://pyformat.info/
